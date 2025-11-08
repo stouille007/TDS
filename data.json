@@ -1,1 +1,84 @@
-"[\"agents\" => [[\"id\"=>66,\"nom\"=>ARNOLLET,\"prenom\"=>Xavier],[\"id\"=>37,\"nom\"=>BARBERO,\"prenom\"=>Rémi],[\"id\"=>9,\"nom\"=>BARGE,\"prenom\"=>Pierre],[\"id\"=>68,\"nom\"=>BELLEMIN-NOEL,\"prenom\"=>David],[\"id\"=>49,\"nom\"=>BERNARD,\"prenom\"=>Franck],[\"id\"=>13,\"nom\"=>BIGAND,\"prenom\"=>Sébastien],[\"id\"=>28,\"nom\"=>BOUISSIERES,\"prenom\"=>Luc],[\"id\"=>17,\"nom\"=>BOURGEAT,\"prenom\"=>Eric],[\"id\"=>23,\"nom\"=>BOUROUAHA,\"prenom\"=>Nabil],[\"id\"=>18,\"nom\"=>BRAHIMI,\"prenom\"=>Mokhtar]]];"
+{
+    "agents": [
+        {
+            "id": 66,
+            "firstname": "Xavier",
+            "lastname": "ARNOLLET",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 37,
+            "firstname": "Rémi",
+            "lastname": "BARBERO",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 9,
+            "firstname": "Pierre",
+            "lastname": "BARGE",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 68,
+            "firstname": "David",
+            "lastname": "BELLEMIN-NOEL",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 49,
+            "firstname": "Franck",
+            "lastname": "BERNARD",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 13,
+            "firstname": "Sébastien",
+            "lastname": "BIGAND",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 28,
+            "firstname": "Luc",
+            "lastname": "BOUISSIERES",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 17,
+            "firstname": "Eric",
+            "lastname": "BOURGEAT",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 23,
+            "firstname": "Nabil",
+            "lastname": "BOUROUAHA",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        },
+        {
+            "id": 18,
+            "firstname": "Mokhtar",
+            "lastname": "BRAHIMI",
+            "photoUrl": "",
+            "service": "",
+            "id_subdivision": ""
+        }
+    ]
+}
