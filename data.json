@@ -75,72 +75,102 @@
         {
             "id": 15774,
             "id_agent": "68",
-            "id_jour": "1",
+            "jour": "",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "fin": "2025-11-10",
+            "background": "ffffff",
+            "color": "000000",
+            "duree": "1"
         },
         {
             "id": 15775,
             "id_agent": "68",
-            "id_jour": "9",
+            "jour": "",
             "debut": "2025-11-11",
-            "fin": "2025-11-11"
+            "fin": "2025-11-11",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "duree": "1"
         },
         {
             "id": 15777,
             "id_agent": "68",
-            "id_jour": "1",
+            "jour": "",
             "debut": "2025-11-13",
-            "fin": "2025-11-13"
+            "fin": "2025-11-13",
+            "background": "ffffff",
+            "color": "000000",
+            "duree": "1"
         },
         {
             "id": 15778,
             "id_agent": "68",
-            "id_jour": "1",
+            "jour": "",
             "debut": "2025-11-14",
-            "fin": "2025-11-14"
+            "fin": "2025-11-14",
+            "background": "ffffff",
+            "color": "000000",
+            "duree": "1"
         },
         {
             "id": 15779,
             "id_agent": "68",
-            "id_jour": "1",
+            "jour": "",
             "debut": "2025-11-17",
-            "fin": "2025-11-17"
+            "fin": "2025-11-17",
+            "background": "ffffff",
+            "color": "000000",
+            "duree": "1"
         },
         {
             "id": 15780,
             "id_agent": "68",
-            "id_jour": "1",
+            "jour": "",
             "debut": "2025-11-18",
-            "fin": "2025-11-18"
+            "fin": "2025-11-18",
+            "background": "ffffff",
+            "color": "000000",
+            "duree": "1"
         },
         {
             "id": 15781,
             "id_agent": "68",
-            "id_jour": "9",
+            "jour": "",
             "debut": "2025-11-19",
-            "fin": "2025-11-19"
+            "fin": "2025-11-19",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "duree": "1"
         },
         {
             "id": 15783,
             "id_agent": "68",
-            "id_jour": "8",
+            "jour": "",
             "debut": "2025-11-21",
-            "fin": "2025-11-21"
+            "fin": "2025-11-21",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "duree": "1"
         },
         {
             "id": 15854,
             "id_agent": "25",
-            "id_jour": "1",
+            "jour": "",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "fin": "2025-11-10",
+            "background": "ffffff",
+            "color": "000000",
+            "duree": "1"
         },
         {
             "id": 15855,
             "id_agent": "25",
-            "id_jour": "9",
+            "jour": "",
             "debut": "2025-11-11",
-            "fin": "2025-11-11"
+            "fin": "2025-11-11",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "duree": "1"
         }
     ]
 }
