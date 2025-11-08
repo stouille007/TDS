@@ -303,7 +303,7 @@ body{
 			
 		}
 	function chargerDonnees() {
-		return $.getJSON("https://stouille007.github.io/TDS/data.json")
+		return $.getJSON("data.json")
 			.done(function(donnees) {
 				agents = donnees.agents || [];
 				calendrier = donnees.calendrier || [];
