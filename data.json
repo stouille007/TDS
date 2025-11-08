@@ -3950,7 +3950,7 @@
             "jour": "",
             "debut": "2025-10-01",
             "fin": "2025-10-01",
-            "background": "",
+            "background": "FFFFFF",
             "color": "",
             "duree": "1"
         },
@@ -3960,7 +3960,7 @@
             "jour": "",
             "debut": "2025-10-08",
             "fin": "2025-10-08",
-            "background": "",
+            "background": "FFFFFF",
             "color": "",
             "duree": "1"
         },
@@ -3970,7 +3970,7 @@
             "jour": "",
             "debut": "2025-10-15",
             "fin": "2025-10-15",
-            "background": "",
+            "background": "FFFFFF",
             "color": "",
             "duree": "1"
         },
@@ -4430,7 +4430,7 @@
             "jour": "",
             "debut": "2025-10-03",
             "fin": "2025-10-03",
-            "background": "",
+            "background": "FFFFFF",
             "color": "",
             "duree": "1"
         },
