@@ -3947,7 +3947,7 @@
         {
             "id": 24920,
             "id_agent": "60",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-01",
             "fin": "2025-10-01",
             "background": "FFFFFF",
@@ -3957,7 +3957,7 @@
         {
             "id": 24922,
             "id_agent": "60",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-08",
             "fin": "2025-10-08",
             "background": "FFFFFF",
@@ -3967,7 +3967,7 @@
         {
             "id": 24924,
             "id_agent": "60",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-15",
             "fin": "2025-10-15",
             "background": "FFFFFF",
@@ -4237,7 +4237,7 @@
         {
             "id": 25868,
             "id_agent": "44",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-03",
             "fin": "2025-10-03",
             "background": "FFFFFF",
@@ -4247,7 +4247,7 @@
         {
             "id": 25869,
             "id_agent": "44",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-10",
             "fin": "2025-10-10",
             "background": "FFFFFF",
@@ -4287,7 +4287,7 @@
         {
             "id": 25889,
             "id_agent": "4",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-01",
             "fin": "2025-10-01",
             "background": "FFFFFF",
@@ -4337,7 +4337,7 @@
         {
             "id": 25896,
             "id_agent": "4",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-08",
             "fin": "2025-10-08",
             "background": "FFFFFF",
@@ -4387,7 +4387,7 @@
         {
             "id": 25903,
             "id_agent": "4",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-15",
             "fin": "2025-10-15",
             "background": "FFFFFF",
@@ -4427,7 +4427,7 @@
         {
             "id": 25909,
             "id_agent": "45",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-03",
             "fin": "2025-10-03",
             "background": "FFFFFF",
@@ -4557,7 +4557,7 @@
         {
             "id": 25931,
             "id_agent": "45",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-10",
             "fin": "2025-10-10",
             "background": "FFFFFF",
@@ -4607,7 +4607,7 @@
         {
             "id": 25938,
             "id_agent": "45",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-17",
             "fin": "2025-10-17",
             "background": "FFFFFF",
@@ -4657,7 +4657,7 @@
         {
             "id": 25945,
             "id_agent": "45",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-24",
             "fin": "2025-10-24",
             "background": "FFFFFF",
@@ -4707,7 +4707,7 @@
         {
             "id": 25952,
             "id_agent": "45",
-            "jour": "",
+            "jour": "TT\/OFF",
             "debut": "2025-10-31",
             "fin": "2025-10-31",
             "background": "FFFFFF",
@@ -8467,7 +8467,7 @@
         {
             "id": 26905,
             "id_agent": "34",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-08",
             "fin": "2025-10-08",
             "background": "FFFFFF",
@@ -8747,7 +8747,7 @@
         {
             "id": 26948,
             "id_agent": "34",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-29",
             "fin": "2025-10-29",
             "background": "FFFFFF",
@@ -9477,7 +9477,7 @@
         {
             "id": 34595,
             "id_agent": "69",
-            "jour": "",
+            "jour": "ARTT\/CA",
             "debut": "2025-10-01",
             "fin": "2025-10-01",
             "background": "FFFFFF",
@@ -9787,7 +9787,7 @@
         {
             "id": 35048,
             "id_agent": "52",
-            "jour": "",
+            "jour": "ARTT\/CA",
             "debut": "2025-09-30",
             "fin": "2025-09-30",
             "background": "FFFFFF",
@@ -9927,7 +9927,7 @@
         {
             "id": 35091,
             "id_agent": "47",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-08",
             "fin": "2025-10-08",
             "background": "FFFFFF",
@@ -9937,7 +9937,7 @@
         {
             "id": 35094,
             "id_agent": "47",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-15",
             "fin": "2025-10-15",
             "background": "FFFFFF",
@@ -9947,7 +9947,7 @@
         {
             "id": 35096,
             "id_agent": "47",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-22",
             "fin": "2025-10-22",
             "background": "FFFFFF",
@@ -9957,7 +9957,7 @@
         {
             "id": 35097,
             "id_agent": "47",
-            "jour": "",
+            "jour": "CA\/RTT",
             "debut": "2025-10-29",
             "fin": "2025-10-29",
             "background": "FFFFFF",
@@ -9977,7 +9977,7 @@
         {
             "id": 35199,
             "id_agent": "47",
-            "jour": "",
+            "jour": "B\/CA",
             "debut": "2025-10-03",
             "fin": "2025-10-03",
             "background": "FFFFFF",
@@ -10067,7 +10067,7 @@
         {
             "id": 35227,
             "id_agent": "47",
-            "jour": "",
+            "jour": "CA",
             "debut": "2025-10-10",
             "fin": "2025-10-10",
             "background": "FFFFFF",
@@ -10077,7 +10077,7 @@
         {
             "id": 35316,
             "id_agent": "61",
-            "jour": "",
+            "jour": "J\/CA",
             "debut": "2025-10-06",
             "fin": "2025-10-06",
             "background": "FFFFFF",
@@ -10127,7 +10127,7 @@
         {
             "id": 35354,
             "id_agent": "55",
-            "jour": "",
+            "jour": "J\/TT",
             "debut": "2025-10-08",
             "fin": "2025-10-08",
             "background": "FFFFFF",
@@ -10277,7 +10277,7 @@
         {
             "id": 35600,
             "id_agent": "60",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-22",
             "fin": "2025-10-22",
             "background": "FFFFFF",
@@ -10287,7 +10287,7 @@
         {
             "id": 35602,
             "id_agent": "60",
-            "jour": "",
+            "jour": "CA\/RTT",
             "debut": "2025-10-29",
             "fin": "2025-10-29",
             "background": "FFFFFF",
@@ -10297,7 +10297,7 @@
         {
             "id": 35973,
             "id_agent": "65",
-            "jour": "",
+            "jour": "TT\/RTT",
             "debut": "2025-10-31",
             "fin": "2025-10-31",
             "background": "FFFFFF",
@@ -10307,7 +10307,7 @@
         {
             "id": 35975,
             "id_agent": "65",
-            "jour": "",
+            "jour": "RTT\/TT",
             "debut": "2025-10-27",
             "fin": "2025-10-27",
             "background": "FFFFFF",
@@ -10317,7 +10317,7 @@
         {
             "id": 35979,
             "id_agent": "44",
-            "jour": "",
+            "jour": "B\/RTT",
             "debut": "2025-10-17",
             "fin": "2025-10-17",
             "background": "FFFFFF",
@@ -10507,7 +10507,7 @@
         {
             "id": 36061,
             "id_agent": "44",
-            "jour": "",
+            "jour": "B\/RTT",
             "debut": "2025-10-24",
             "fin": "2025-10-24",
             "background": "FFFFFF",
@@ -10567,7 +10567,7 @@
         {
             "id": 36083,
             "id_agent": "4",
-            "jour": "",
+            "jour": "OFF\/TT",
             "debut": "2025-10-29",
             "fin": "2025-10-29",
             "background": "FFFFFF",
@@ -10577,7 +10577,7 @@
         {
             "id": 36084,
             "id_agent": "29",
-            "jour": "",
+            "jour": "B\/CA",
             "debut": "2025-10-22",
             "fin": "2025-10-22",
             "background": "FFFFFF",
@@ -10637,7 +10637,7 @@
         {
             "id": 36090,
             "id_agent": "29",
-            "jour": "",
+            "jour": "CA",
             "debut": "2025-10-17",
             "fin": "2025-10-17",
             "background": "FFFFFF",
@@ -10657,7 +10657,7 @@
         {
             "id": 36101,
             "id_agent": "54",
-            "jour": "",
+            "jour": "B\/TT",
             "debut": "2025-10-31",
             "fin": "2025-10-31",
             "background": "FFFFFF",
@@ -10677,7 +10677,7 @@
         {
             "id": 36111,
             "id_agent": "73",
-            "jour": "",
+            "jour": "CA\/ARTT",
             "debut": "2025-10-28",
             "fin": "2025-10-28",
             "background": "FFFFFF",
