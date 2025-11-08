@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Planning Mensuel — Consultation</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+body{
+	font-family:"Inter",system-ui,sans-serif;
+	margin:0;background:#f6f8fb;color:#0f172a;
+	}
+.app-header{
+	display:flex;
+	align-items:center;
+	gap:14px;
+	padding:12px 14px;
+	background:linear-gradient(90deg,#2563eb,#7c3aed);
+	color:white;
+	position:sticky;
+	top:0;
+	z-index:40;
+	box-shadow:0 6px 18px rgba(34,60,80,0.08);
+	}
+.logo{
+	width:44px;
+	height:44px;
+	border-radius:10px;
+	background:linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-weight:700;font-size:18px
+	}
+.title h1{
+	margin:0;
+	font-size:17px;
+	font-weight:700
+	}
+.title p{
+	margin:0;
+	font-size:12px;
+	opacity:0.95
+	}
+.header-actions{
+	margin-left:auto;
+	display:flex;
+	gap:8px;
+	align-items:center
+	}
+.icon-btn{
+	background:transparent;
+	border:1px solid rgba(255,255,255,0.18);
+	color:#fff;
+	padding:8px;
+	border-radius:10px;
+	cursor:pointer;
+	display:inline-flex;
+	align-items:center;
+	gap:8px;
+	font-weight:600;
+	transition:transform .12s ease,background .12s;
+	}
+.container{
+	max-width:1200px;
+	margin:18px auto;
+	padding:12px
+	}
+.controls{
+	flex-wrap:wrap;
+	gap:10px;
+	align-items:center;
+	padding:12px;
+	border-radius:12px;
+	background:#fff;
+	box-shadow:0 6px 18px rgba(34,60,80,0.08);
+	border:1px solid rgba(0,0,0,0.04);
+	}
+.btn-primary{
+	background:#2563eb;
+	color:#fff;
+	padding:10px 12px;
+	border-radius:10px;
+	border:none;
+	font-weight:700;
+	cursor:pointer
+	}
+.month-navigation{
+	display:flex;
+	align-items:center;
+	gap:6px
+	}
+.nav-btn{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:11px;
+	background:#f3f3f3;
+	border:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:8px;
+	cursor:pointer;
+	font-weight:600;
+	transition:all .12s;
+	}
+.nav-btn:hover{
+	background:#e0e7ff;
+	}
+.calendar-wrap{
+	overflow:auto;
+	margin-top:14px;
+	border-radius:12px;
+	box-shadow:0 6px 18px rgba(34,60,80,0.08);
+	background:#fff;
+	}
+.containerTableau{
+	 width: 100%;
+	overflow-x: auto;     
+	-webkit-overflow-scrolling: touch; 
+	}
+.tableau{
+	border-collapse: collapse;
+	width: 1200px; /* largeur plus grande que l’écran du smartphone */
+	min-width: 600px;
+	}
+.tableau th, td {
+	white-space: nowrap; /* empêche le texte de passer à la ligne */
+	}
+.ligne_numero{
+	display:flex;
+	}		
+.ligne_jour{
+	display:flex;
+	}	
+.contenuTableau{
+	
+	}	
+.ligne_agent{
+	display:flex;
+	}	
+.CelluleNom{
+	border:1px solid #CCCCCC;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:13px;
+	text-align:left;
+	width:100px;
+	}
+.TitreNom{
+	border:none;
+	}
+.Cellulejour{
+	border: 1px solid #CCCCCC;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	text-align: center;
+	flex:1;
+	}
+
+.jourNum{
+	border:1px solid #CCCCCC;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:11px;
+	text-align:center;
+	flex:1;
+	}
+.jourJ{
+	border:1px solid #CCCCCC;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:11px;
+	text-align:center;
+	flex:1;
+	}
+.jourS{
+	border:1px solid #CCCCCC;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:11px;
+	text-align:center;
+	width:35px;
+	}
+.div{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 6px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	width:35px;
+	}
+.week-end{
+	background:#f0f0f0;
+	}
+.ligneMenu{
+	display:flex;
+	width:100%;
+	}
+.PartieGauche{
+	text-align:left;
+	}
+.PartieCentre{
+	flex:1;
+	text-align:center;
+	line-height:23px;
+	}	
+.PartieDroite{
+	text-align:right;
+	}		
+</style>
+</head>
+<body>
+<body id="page-top"> 
+	<div id="appRoot">
+		<div class="app-header">
+			<div class="logo">TS</div>
+			<div class="title">
+				<h1>Planning Mensuel</h1>
+				<p>Consultation — Agents</p>
+			</div>
+			<div class="header-actions">
+				<button id="btnRefresh" class="icon-btn">Rafraîchir</button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="controls">
+				<div class="month-navigation">
+					<div class='ligneMenu'>			
+						<div class='PartieGauche'>
+							<button id="prevMonth" class="nav-btn">&lt; Mois précédent</button>
+						</div>					
+						<div class='PartieCentre'>
+							<div class="week-range" id="monthRange"></div>
+						</div>					
+						<div class='PartieDroite'>
+							<button id="nextMonth" class="nav-btn">Mois suivant &gt;</button>
+						</div>					
+					</div>	
+				</div>
+			</div>
+			<div class="calendar-wrap">
+				<div class='containerTableau' id='containerTableau'>
+					<div class='ligne_numero' id='ligne_numero'></div>
+					<div class='ligne_jour' id='ligne_jour'></div>
+					
+					<div class='contenuTableau' id='contenuTableau'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+    let agents = [];
+    let shifts = [];
+	let Trad_jour = ['D','L','M','M','J','V','S'];
+	let Trad_Mois = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Décembre"];
+
+	$(document).ready(function() {
+		chargerDonnees().then(() => {
+			creation_Tableau();
+			gestion_menu_navigation_mois();
+			});
+		});
+	function gestion_menu_navigation_mois(){
+		let mois = getParameter("mois");
+		let annee = getParameter("annee");
+		if (typeof mois === "undefined")		{mois  = (new Date).getMonth()+1;}
+		if (typeof annee === "undefined")		{annee  = (new Date).getFullYear();}
+		
+		$("#monthRange").html(Trad_Mois[mois-1]+" "+annee);
+		}		
+	function creation_Tableau(){
+		let mois = getParameter("mois");
+		let annee = getParameter("annee");
+		if (typeof mois === "undefined")		{mois  = (new Date).getMonth()+1;}
+		if (typeof annee === "undefined")		{annee  = (new Date).getFullYear();}
+		
+		
+		let premierLundi = getFirstMonday(annee, mois);
+		let DernierDimande = getLastSunday(annee, mois);
+		
+		const $theadNum = $('#ligne_numero').empty().append('<div class="CelluleNom TitreNom">&nbsp;</div>');
+		const $theadJ = $('#ligne_jour').empty().append('<div class="CelluleNom TitreNom">&nbsp;</div>');
+		
+		
+		const daysInMonth = new Date(annee, mois,0).getDate();
+		let dates = [];
+		let current = new Date(premierLundi);
+		while (current <= DernierDimande) {
+			let dateObj = new Date(current);
+			let addClass = "";
+			if (dateObj.getDay() == 5 || dateObj.getDay() == 6)		addClass = "week-end";
+			const $thJour = $('<div>')
+				.addClass('jourNum '+addClass)
+				.text(dateObj.getDate());
+			const $thjOUR = $('<div>')
+				.addClass('jourJ '+addClass)
+				.prop('id',formatDateToYMD(dateObj))
+				.text(Trad_jour[dateObj.getDay()]);
+			
+			$theadNum.append($thJour);
+			$theadJ.append($thjOUR);
+			current.setDate(current.getDate() + 1); // jour suivant
+			}
+		filtrage_Subdivision();
+			
+		}
+	function chargerDonnees() {
+		return $.getJSON("https://stouille007.github.io/TDS/data.json")
+			.done(function(donnees) {
+				agents = donnees.agents || [];
+				calendrier = donnees.calendrier || [];
+				// console.log("✅ Données chargées !");
+				// console.log("Agents :", agents);
+				// console.log("calendrier :", calendrier);
+				
+				})
+			.fail(function(jqxhr, textStatus, error) {console.error("❌ Erreur de chargement JSON :", textStatus, error);});
+		}	
+	function filtrage_Subdivision(){
+		const $body = $('#contenuTableau').empty();
+		let id_subdivision = getParameter("id_subdivision");
+		
+		for (var i=0;i<agents.length;i++){
+			if (agents[i].id_subdivision == id_subdivision){
+				// alert();
+				const $ligne = $('<div class="ligne_agent">').append('<div class="CelluleNom" id="'+agents[i].id+'">'+agents[i].firstname+'</div>');
+				let ClasseWeek = "";
+				$('.jourJ').each(function(cell){
+					let idCellule = $(this).prop("id");
+					if ($(this).hasClass("week-end"))		ClasseWeek = "week-end";		else 			ClasseWeek = "";
+					const $div = $('<div>')
+						.addClass('Cellulejour '+ClasseWeek)
+						.text("-")
+						.attr('id', agents[i].id+"_"+idCellule);
+					$ligne.append($div);
+					});
+				$body.append($ligne);
+				}
+			}
+		// remplissage();
+		}
+	// function remplissage(){
+		// $('.CelluleNom').each(function(cell){
+			// let idAgent = $(this).prop("id");
+			// for (var j=0;j<calendrier.length;j++){
+				// if (calendrier[j].id_agent ==  idAgent){
+					// let Ladate = calendrier[j].debut;
+					// let jour = calendrier[j].jour;
+					// const $cellule = $('#'+idAgent+'_'+Ladate).empty();
+					// const $div = $('<div>')
+					  // .addClass('div')
+					  // .css('background-color','#'+calendrier[j].background)
+					  // .css('color','#'+calendrier[j].color)
+					  // .text(calendrier[j].jour);
+					// $cellule.append($div);
+					// }
+				// }
+				
+			// });
+		// }
+	
+	
+	
+	
+	function getLastSunday(year, month) {
+		let date = new Date(year, month, 0);
+		let day = date.getDay();
+		date.setDate(date.getDate() - day);
+		return date;
+		}
+	function getFirstMonday(year, month) {
+		let date = new Date(year, month - 1, 1);
+		let day = date.getDay();
+		let diff = (day === 0) ? 1 : (8 - day);
+		date.setDate(date.getDate() + (day === 1 ? 0 : diff));
+		return date;
+		}
+	function getLastDayOfMonth(year, month) {
+		return new Date(year, month, 0).getDate();
+		}
+	function mktime(hour,minute,month,day,year){
+		return (new Date(year, month, day, hour, minute, 0)).getTime()/1000;
+		}
+	function formatDateToYMD(date) {
+		if (!(date instanceof Date) || isNaN(date)) return null;
+		let year = date.getFullYear();
+		let month = String(date.getMonth() + 1).padStart(2, '0'); // mois commence à 0
+		let day = String(date.getDate()).padStart(2, '0');
+		return `${year}-${month}-${day}`;
+		}
+	function getParameter(p){
+		var url = window.location.search.substring(1);
+		var varUrl = url.split('&');
+		for (var i = 0; i < varUrl.length; i++){
+			var parameter = varUrl[i].split('=');
+			if (parameter[0] == p){
+				return parameter[1];
+				}
+			}
+		}
+	
+</script>
+</body>
+</html>
