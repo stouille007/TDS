@@ -3951,7 +3951,7 @@
             "debut": "2025-10-01",
             "fin": "2025-10-01",
             "background": "FFFFFF",
-            "color": "",
+            "color": "000000",
             "duree": "1"
         },
         {
@@ -3961,7 +3961,7 @@
             "debut": "2025-10-08",
             "fin": "2025-10-08",
             "background": "FFFFFF",
-            "color": "",
+            "color": "000000",
             "duree": "1"
         },
         {
@@ -3971,7 +3971,7 @@
             "debut": "2025-10-15",
             "fin": "2025-10-15",
             "background": "FFFFFF",
-            "color": "",
+            "color": "000000",
             "duree": "1"
         },
         {
@@ -4431,7 +4431,7 @@
             "debut": "2025-10-03",
             "fin": "2025-10-03",
             "background": "FFFFFF",
-            "color": "",
+            "color": "000000",
             "duree": "1"
         },
         {
