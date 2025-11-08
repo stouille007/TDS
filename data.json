@@ -1,4 +1,1 @@
-{
-    "message": "Salut depuis PHP",
-    "time": "2025-11-08T06:55:51+00:00"
-}
+"[\"agents\" => [[\"id\"=>66,\"nom\"=>ARNOLLET,\"prenom\"=>Xavier],[\"id\"=>37,\"nom\"=>BARBERO,\"prenom\"=>Rémi],[\"id\"=>9,\"nom\"=>BARGE,\"prenom\"=>Pierre],[\"id\"=>68,\"nom\"=>BELLEMIN-NOEL,\"prenom\"=>David],[\"id\"=>49,\"nom\"=>BERNARD,\"prenom\"=>Franck],[\"id\"=>13,\"nom\"=>BIGAND,\"prenom\"=>Sébastien],[\"id\"=>28,\"nom\"=>BOUISSIERES,\"prenom\"=>Luc],[\"id\"=>17,\"nom\"=>BOURGEAT,\"prenom\"=>Eric],[\"id\"=>23,\"nom\"=>BOUROUAHA,\"prenom\"=>Nabil],[\"id\"=>18,\"nom\"=>BRAHIMI,\"prenom\"=>Mokhtar]]];"
