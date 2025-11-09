@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>TDS V² - Connexion</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script src="script.js"></script>
+<style>
+  :root{
+    --primary:#334F70;
+    --accent:#FACC15;
+    --bg:#F4F6F8;
+    --card:#FFFFFF;
+    --muted:#6B7280;
+  }
+
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+    background:
+      radial-gradient(circle at 10% 10%, rgba(51,79,112,0.08), transparent 10%),
+      linear-gradient(135deg, rgba(51,79,112,0.08), rgba(250,204,21,0.02)),
+      var(--bg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px;
+    color:#0F1724;
+  }
+
+  .container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:18px;
+  }
+
+  .title{
+    font-size:44px;
+    font-weight:700;
+    color:var(--primary);
+    letter-spacing:0.5px;
+  }
+
+  .title span{
+    color:var(--accent);
+  }
+
+  .card{
+    background:var(--card);
+    border-radius:18px;
+    padding:32px;
+    box-shadow:0 8px 30px rgba(16,24,40,0.08);
+    border:1px solid rgba(17,24,39,0.04);
+    width:100%;
+    max-width:420px;
+  }
+
+  .logo{
+    display:flex;gap:12px;align-items:center;margin-bottom:18px;
+  }
+  .logo .mark{
+    width:55px;height:55px;border-radius:10px;
+    background:linear-gradient(135deg,var(--primary), #2B4360);
+    display:grid;place-items:center;
+    color:white;font-size:35px;
+    box-shadow:0 6px 18px rgba(51,79,112,0.12);
+  }
+
+  h2{margin:0 0 6px 0;font-size:18px;color:var(--primary);text-align:left;}
+  .muted{color:var(--muted);font-size:14px;margin-bottom:16px}
+
+  form{display:flex;flex-direction:column;gap:12px}
+  label{font-size:13px;color:var(--muted)}
+  input[type="text"], input[type="password"], input[type="text"]{
+    width:100%;
+    padding:12px 14px;
+    border-radius:10px;
+    border:1px solid rgba(15,23,36,0.06);
+    background:linear-gradient(180deg, #ffffff, #fbfdff);
+    font-size:15px;
+    outline:none;
+    transition:box-shadow .18s, border-color .18s, transform .12s;
+  }
+  input:focus{
+    box-shadow:0 6px 18px rgba(51,79,112,0.08);
+    border-color:rgba(51,79,112,0.35);
+    transform:translateY(-1px);
+  }
+
+  .link{
+    color:var(--primary);
+    text-decoration:none;
+    font-weight:600;
+	font-size:12px;
+  }
+  .link:hover{
+    text-decoration:underline;
+  }
+
+  /* --- Bouton principal --- */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 16px;
+    border-radius:12px;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    font-size:15px;
+    transition:all .25s ease;
+    position:relative;
+    overflow:hidden;
+    text-decoration:none;
+  }
+
+  .btn-primary{
+    background:var(--accent);
+    color:#0F1724;
+    box-shadow:0 8px 18px rgba(250,204,21,0.12);
+	margin-top:20px;
+  }
+
+  /* ✨ Effet au survol */
+  .btn-primary:hover{
+    transform:scale(1.05);
+    box-shadow:0 12px 25px rgba(250,204,21,0.35);
+  }
+  .btn-primary::after{
+    content:"";
+    position:absolute;
+    top:0;left:-75%;
+    width:50%;height:100%;
+    background:rgba(255,255,255,0.35);
+    transform:skewX(-25deg);
+    transition:0.6s;
+  }
+  .btn-primary:hover::after{
+    left:130%;
+  }
+
+  .foot{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    justify-content:center;
+    padding-top:10px;
+    font-size:13px;
+    color:var(--muted);
+  }
+.erreur{
+	font-weight:bold;
+	color:#DC2626 !important;
+	font-size:18px;
+	margin-top:10px;
+	}
+.erreurInvisible{
+	display:none;
+	}  
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">TDS <span>V²</span></div>
+	<div class="card" role="region" aria-label="Formulaire de connexion">
+      
+      <form>
+        <div>
+          <label for="pass">Mot de passe</label>
+          <input id="password" type="password" placeholder="" required />
+        </div>
+
+        <div class='erreur erreurInvisible' id='erreur'>Erreur d'identification</div>	
+		  
+        <button type="button" class="btn btn-primary" id="validation">Se connecter</button>
+      </form>
+    </div>
+  </div>
+	<script>
+	function validation(){
+		<!-- console.log("Pas encore connecté "); -->
+		var password = $('#password').val();
+		if (CryptoJS.SHA256(password).toString() == "6f7744146bd5d73de94601e4073b83d44dcbfc2e49a5d53249d7d61eea9bb40e"){
+			sessionStorage.setItem("dC",Date.now());
+			window.location.replace("calendrier.html");
+			}
+		else{$('#erreur').show();}
+		}
+	$(document).ready(function () {
+		let dC = sessionStorage.getItem("dC");
+		if (testSession()){
+			window.location.replace("calendrier.html");
+			}
+		$('#validation').click(function(){
+			validation();
+			});
+		});
+	</script>		
+</body>
+</html>
