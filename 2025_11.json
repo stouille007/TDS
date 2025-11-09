@@ -1581,17 +1581,6 @@
             "duree": "1"
         },
         {
-            "id": 17691,
-            "id_agent": "5",
-            "jour": "J",
-            "debut": "2025-11-28",
-            "fin": "2025-11-28",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 17692,
             "id_agent": "20",
             "jour": "OFF",
@@ -1674,17 +1663,6 @@
             "jour": "J",
             "debut": "2025-11-26",
             "fin": "2025-11-26",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17710,
-            "id_agent": "20",
-            "jour": "J",
-            "debut": "2025-11-27",
-            "fin": "2025-11-27",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -9534,17 +9512,6 @@
             "duree": "1"
         },
         {
-            "id": 35987,
-            "id_agent": "22",
-            "jour": "",
-            "debut": "2025-11-24",
-            "fin": "2025-11-24",
-            "background": "FFFFFF",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35988,
             "id_agent": "22",
             "jour": "",
@@ -9936,6 +9903,39 @@
             "debut": "2025-11-20",
             "fin": "2025-11-20",
             "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36187,
+            "id_agent": "22",
+            "jour": "J",
+            "debut": "2025-11-24",
+            "fin": "2025-11-24",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36188,
+            "id_agent": "20",
+            "jour": "CM",
+            "debut": "2025-11-27",
+            "fin": "2025-11-27",
+            "background": "c7c7c7",
+            "color": "ffffff",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36189,
+            "id_agent": "5",
+            "jour": "ASA",
+            "debut": "2025-11-28",
+            "fin": "2025-11-28",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
