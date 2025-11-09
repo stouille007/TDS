@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Planning Mensuel — Consultation</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link href="css.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="script.js"></script>
+	<script>
+	if (!testSession()){
+		window.location.replace("index.html");
+		}
+	</script>
+</head>
+<body>
+<body id="page-top"> 
+	<div id="appRoot">
+		<div class="app-header">
+			<div class="logo" id="logo"><i class="bi bi-calendar2-date"></i></div>
+			<div class="title">
+				<h1>Tableau de Service</h1>
+				<p>SNA-CE</p>
+			</div>
+			<div class="header-actions">
+				<button id="btnRefresh" class="icon-btn"><i class="bi bi-arrow-clockwise"></i></button>
+				<button id="btnLogout" class="icon-btn"><i class="bi bi-box-arrow-right"></i></button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="controlsChoix">
+				<div class="month-navigation">
+					<div class='ligneMenu'>			
+						<div class='PartieCentre'>
+							<div class="selectDivChoix" id="selectDivChoix">
+								<select class='selectionChoix' id='selectionChoix' onchange="changementSelectChoix();">
+									<option value="service">Tableau de Service</option>
+									<option value="pole">Tableau de Pôle</option>
+									<option value="subdivision">Tableau de Subdivision</option>
+								</select>
+							</div>
+						</div>									
+					</div>	
+				</div>
+			</div>
+	
+			<div class="controlsSubdivision">
+				<div class="month-navigation">
+					<div class='ligneMenu'>			
+						<div class='PartieCentre'>
+							<div class="selectDiv" id="selectDiv"></div>
+						</div>									
+					</div>	
+				</div>
+			</div>
+	
+			<div class="controls" id="controlsMois">
+				<div class="month-navigation">
+					<div class='ligneMenu'>			
+						<div class='PartieGauche'>
+							<button id="prevMonth" class="nav-btn">&lt; Précédent</button>
+						</div>					
+						<div class='PartieCentre'>
+							<div class="week-range" id="monthRange"></div>
+						</div>					
+						<div class='PartieDroite'>
+							<button id="nextMonth" class="nav-btn">Suivant &gt;</button>
+						</div>					
+					</div>	
+				</div>
+			</div>
+			
+			<div class="calendar-wrap">
+				<div class='containerTableau' id='containerTableau'>
+					<div class='partie_tableau_gauche' id='partie_tableau_gauche'></div>
+					<div class='partie_tableau_droite' id='partie_tableau_droite'>
+						<div class='ligne_jour' id='ligne_jour'></div>
+						<div class='ligne_numero' id='ligne_numero'></div>
+						<div class='contenuTableau' id='contenuTableau'></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="calendar-wrap">
+				<div class='AlertTableau' id='AlertTableau'>
+					
+				</div>
+			</div>
+			
+			
+			
+			<div class='erreur'id='erreur'></div>
+		</div>
+	</div>
+	
+	
+	<div class="divBas" id="divBas">sdfsdfdsfdsf</div>
+	
+</body>
+</html>
