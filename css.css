@@ -1,0 +1,341 @@
+body{
+	font-family:"Inter",system-ui,sans-serif;
+	margin:0;background:#f6f8fb;color:#0f172a;
+	}
+.app-header{
+	display:flex;
+	align-items:center;
+	gap:14px;
+	padding:12px 14px;
+	/* background:linear-gradient(90deg,#2563eb,#7c3aed); */
+	background:#334F70;
+	color:white;
+	position:sticky;
+	top:0;
+	z-index:40;
+	box-shadow:0 6px 18px rgba(34,60,80,0.08);
+	}
+.logo{
+	width:44px;
+	height:44px;
+	border-radius:10px;
+	background: #FACC15;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-weight:700;font-size:18px;
+	color:#334f70;
+	}
+.title h1{
+	margin:0;
+	font-size:17px;
+	font-weight:700
+	}
+.title p{
+	margin:0;
+	font-size:12px;
+	opacity:0.95
+	}
+.header-actions{
+	margin-left:auto;
+	display:flex;
+	gap:8px;
+	align-items:center
+	}
+.icon-btn{
+	background: #FFFFFF;
+	border:1px solid rgba(255,255,255,0.18);
+	color:#334f70;
+	padding:6px;
+	border-radius:6px;
+	cursor:pointer;
+	display:inline-flex;
+	align-items:center;
+	gap:8px;
+	font-weight:600;
+	transition:transform .12s ease,background .12s;
+	}
+.container{
+	max-width:1200px;
+	margin:18px auto;
+	padding:12px;
+	padding-top: 0px;
+	}
+.controls{
+	flex-wrap:wrap;
+	gap:10px;
+	align-items:center;
+	margin-top:25px;
+	/* padding:12px; */
+	/* border-radius:12px; */
+	/* background:#334F70; */
+	/* box-shadow:0 6px 18px rgba(34,60,80,0.08); */
+	/* border: 1px solid #E4E0E0; */
+	}
+.controlsChoix{
+	flex-wrap:wrap;
+	gap:10px;
+	align-items:center;
+	/* padding:12px; */
+	/* border-radius:12px; */
+	/* background:#fff; */
+	/* box-shadow:0 6px 18px rgba(34,60,80,0.08); */
+	/* border: 1px solid #E4E0E0; */
+	margin-bottom:10px;
+	}
+.controlsSubdivision{
+	flex-wrap:wrap;
+	gap:10px;
+	align-items:center;
+	/* padding:12px; */
+	/* border-radius:12px; */
+	/* background:#fff; */
+	/* box-shadow:0 6px 18px rgba(34,60,80,0.08); */
+	/* border: 1px solid #E4E0E0; */
+	margin-bottom:10px;
+	}
+.btn-primary{
+	background:#2563eb;
+	color:#fff;
+	padding:10px 12px;
+	border-radius:10px;
+	border:none;
+	font-weight:700;
+	cursor:pointer
+	}
+.month-navigation{
+	display:flex;
+	align-items:center;
+	gap:6px
+	}
+.nav-btn{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:11px;
+	background: #FACC15;
+	border:1px solid rgba(255,255,255,0.18);
+	color:#334f70;
+	border:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:8px;
+	font-weight:600;
+	transition:all .12s;
+	cursor:pointer;
+	width:90px;
+	}
+.calendar-wrap{
+	overflow:auto;
+	margin-top:5px;
+	border-radius:12px;
+	box-shadow:0 6px 18px rgba(34,60,80,0.08);
+	background:#fff;
+	}
+.containerTableau{
+	width: 100%;
+	overflow-x: hidden; /* empêche le défilement horizontal */ 
+	-webkit-overflow-scrolling: touch; 
+	min-width: 1400px;
+	border-collapse: collapse;
+	display:flex;
+	border-radius:12px;
+	}
+.AlertTableau{
+	padding:10px;
+	border-radius:12px;
+	box-sizing: border-box;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 14px;
+	color:#DC2626;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	}
+.partie_tableau_gauche{
+	position: absolute;
+	left: 12px;
+	right: 0;
+	width:115px;
+	background-color:#FFF6D4;
+	border-right:1px solid #CCCCCC;
+	border-radius:12px 0px 0px 12px;
+	padding-top:39px;
+	}
+.partie_tableau_droite{
+	flex:1;
+	margin-left:115px;
+	}
+.ligne_numero{
+	display:flex;
+	}		
+.ligne_jour{
+	display:flex;
+	}	
+.ligne_agent{
+	display:flex;
+	}	
+.LigneNom, .Cellulejour,.jourNum, .jourJ, .jourS{
+	border-color: #EAEAEA !important;
+	}		
+.LigneNom{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 13px;
+	text-align:left;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #FFFFFF;
+	padding-left: 4px;
+	line-height: 30px;
+	/* padding-top:10px; */
+	/* padding-bottom:10px; */
+	box-sizing: border-box;
+	
+	}
+.Cellulejour, .jourNum, .jourJ, .jourS{
+	flex:1;
+	box-sizing: border-box;
+	}
+.Cellulejour{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	text-align:center;
+	box-sizing: border-box;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 30px;
+	/* padding-top:10px; */
+	/* padding-bottom:10px; */
+	flex:1;
+	}
+.jourNum, .jourJ, .jourS{
+	line-height: 20px;
+	height: 20px;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	text-align:center;
+	box-sizing: border-box;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	}
+.div{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	border-radius: 4px;
+	font-size: 10px;
+	height: 100%;
+	align-items: center; 
+	justify-content: center;
+	box-sizing: border-box;
+	display: flex;
+	}
+.div sup{
+	font-size: 0.75em;     /* plus petit */
+	vertical-align: super; /* positionne en haut de la ligne */
+	line-height: 1;
+	font-weight:600;
+	margin-left:2px;
+	color:red;
+	}
+.week-end{
+	background:#f0f0f0ab;
+	}
+.aujourdhui{
+	background: #0800FF;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin-left: 25%;
+	margin-left: 12px;
+	color:white;
+	}
+.ligneMenu{
+	display:flex;
+	width:100%;
+	}
+.PartieGauche{
+	text-align:left;
+	}
+.PartieCentre{
+	flex:1;
+	text-align:center;
+	line-height:20px;
+	}	
+.week-range{
+	text-align: center;
+	}	
+.week-range a{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 13px;
+	color:#334F70;
+	text-decoration:none;
+	}	
+.PartieDroite{
+	text-align:right;
+	}
+.erreur{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 13px;
+	text-align:center;
+	font-weight:600;
+	color:red;
+	margin-top:30px;
+	padding-left: 50px;
+  padding-right: 50px;
+	}
+.erreur i{
+	font-size: 47px;
+	color:red;
+	}
+.selectionSubdivision{
+	height: 35px;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 14px;
+	width: 100%;
+	border: 1px solid #000;
+	border-radius: 7px;
+	text-align: center;
+	background-color:#334F70;
+	color:#FACC15;
+	}		
+.selectionPole{
+	height: 35px;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 14px;
+	width: 100%;
+	border: 1px solid #000;
+	border-radius: 7px;
+	text-align: center;
+	background-color:#334F70;
+	color:#FACC15;
+	}		
+.selectionChoix{
+	height: 35px;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 14px;
+	width: 100%;
+	border: 1px solid #000;
+	border-radius: 7px;
+	text-align: center;
+	background-color:#334F70;
+	color:#FACC15;
+	}		
+.divBas{
+	position: fixed;   /* position fixe par rapport à la fenêtre */
+	bottom: 0;         /* colle au bas de la fenêtre */
+	left: 0;           /* commence à gauche */
+	width: 100%;       /* largeur totale */
+	background: #DC2626;  /* couleur de fond */
+	color: white;      /* texte blanc */
+	padding: 10px;
+	text-align: center;
+	z-index: 1000;     /* toujours au-dessus des autres éléments */
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 15px;
+	height: 30px;         /* hauteur fixe */
+	line-height: 30px;    /* centrer verticalement le texte */
+  
+
+	opacity: 0;           /* invisible au départ */
+	transform: translateY(30px); /* position basse pour l’animation */
+	display: none;        /* caché initialement */
+
+  
+	}		
+	
