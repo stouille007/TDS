@@ -10112,6 +10112,15 @@
             "background": "0024ed",
             "color": "ffffff",
             "duree": "5"
+        },
+        {
+            "id_tache": 11,
+            "tache_courte": "eee",
+            "tache": "eeee",
+            "debut": "2025-11-13",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
         }
     ],
     "taches_agents": [
@@ -10190,6 +10199,10 @@
         {
             "id_tache": 7,
             "id_agent": "7"
+        },
+        {
+            "id_tache": 11,
+            "id_agent": "5"
         }
     ]
 }
