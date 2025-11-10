@@ -9947,133 +9947,133 @@
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "duree": "1"
         },
         {
             "id_tache": 8,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "duree": "1"
         },
         {
             "id_tache": 8,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "duree": "1"
         },
         {
             "id_tache": 8,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "duree": "1"
         },
         {
             "id_tache": 8,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "duree": "1"
         },
         {
             "id_tache": 8,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-10",
-            "fin": "2025-11-10"
+            "duree": "1"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 9,
             "tache_courte": "dz",
             "tache": "zaeaze",
             "debut": "2025-11-12",
-            "fin": "2025-11-13"
+            "duree": "2"
         },
         {
             "id_tache": 7,
             "tache_courte": "TEST",
             "tache": "Essai d&#39;activité super bien",
             "debut": "2025-11-17",
-            "fin": "2025-11-21"
+            "duree": "5"
         },
         {
             "id_tache": 7,
             "tache_courte": "TEST",
             "tache": "Essai d&#39;activité super bien",
             "debut": "2025-11-17",
-            "fin": "2025-11-21"
+            "duree": "5"
         },
         {
             "id_tache": 7,
             "tache_courte": "TEST",
             "tache": "Essai d&#39;activité super bien",
             "debut": "2025-11-17",
-            "fin": "2025-11-21"
+            "duree": "5"
         },
         {
             "id_tache": 7,
             "tache_courte": "TEST",
             "tache": "Essai d&#39;activité super bien",
             "debut": "2025-11-17",
-            "fin": "2025-11-21"
+            "duree": "5"
         },
         {
             "id_tache": 7,
             "tache_courte": "TEST",
             "tache": "Essai d&#39;activité super bien",
             "debut": "2025-11-17",
-            "fin": "2025-11-21"
+            "duree": "5"
         },
         {
             "id_tache": 7,
             "tache_courte": "TEST",
             "tache": "Essai d&#39;activité super bien",
             "debut": "2025-11-17",
-            "fin": "2025-11-21"
+            "duree": "5"
         }
     ]
 }
