@@ -10075,5 +10075,83 @@
             "debut": "2025-11-17",
             "duree": "5"
         }
+    ],
+    "taches_agents": [
+        {
+            "id_tache": 8,
+            "id_agent": "61"
+        },
+        {
+            "id_tache": 8,
+            "id_agent": "11"
+        },
+        {
+            "id_tache": 8,
+            "id_agent": "27"
+        },
+        {
+            "id_tache": 8,
+            "id_agent": "19"
+        },
+        {
+            "id_tache": 8,
+            "id_agent": "6"
+        },
+        {
+            "id_tache": 8,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "74"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "19"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "6"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "20"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "22"
+        },
+        {
+            "id_tache": 9,
+            "id_agent": "7"
+        },
+        {
+            "id_tache": 7,
+            "id_agent": "74"
+        },
+        {
+            "id_tache": 7,
+            "id_agent": "19"
+        },
+        {
+            "id_tache": 7,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 7,
+            "id_agent": "20"
+        },
+        {
+            "id_tache": 7,
+            "id_agent": "22"
+        },
+        {
+            "id_tache": 7,
+            "id_agent": "7"
+        }
     ]
 }
