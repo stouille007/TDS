@@ -1,7 +1,9 @@
 {
-    "informations": {
-        "derniere_modification": "2025-11-11 17:55:17"
-    },
+    "informations": [
+        {
+            "derniere_modification": "2025-11-11 17:58:48"
+        }
+    ],
     "agents": [
         {
             "id": 66,
