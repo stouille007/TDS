@@ -4,6 +4,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<title>Planning Mensuel — Consultation</title>
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#000000">
+
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<link href="css.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -26,6 +29,7 @@
 			</div>
 			<div class="header-actions">
 				<button id="btnRefresh" class="icon-btn"><i class="bi bi-arrow-clockwise"></i></button>
+				<button id="btnFullScreen" class="icon-btn"><i class="bi bi-phone-landscape"></i></button>
 				<button id="btnLogout" class="icon-btn"><i class="bi bi-box-arrow-right"></i></button>
 			</div>
 		</div>
@@ -60,13 +64,13 @@
 				<div class="month-navigation">
 					<div class='ligneMenu'>			
 						<div class='PartieGauche'>
-							<button id="prevMonth" class="nav-btn">&lt; Précédent</button>
+							<button id="prevMonth" class="nav-btn"><i class="bi bi-arrow-left"></i></button>
 						</div>					
 						<div class='PartieCentre'>
 							<div class="week-range" id="monthRange"></div>
 						</div>					
 						<div class='PartieDroite'>
-							<button id="nextMonth" class="nav-btn">Suivant &gt;</button>
+							<button id="nextMonth" class="nav-btn"><i class="bi bi-arrow-right"></i></button>
 						</div>					
 					</div>	
 				</div>
@@ -90,13 +94,132 @@
 			</div>
 			
 			
+			<div class='derniere_modif' id='derniere_modif'></div>
+			<div class='tips' id='tips'>Cliquez sur le nom d'une personne pour obtenir directement son tableau de service</div>
 			
 			<div class='erreur'id='erreur'></div>
 		</div>
 	</div>
 	
 	
-	<div class="divBas" id="divBas">sdfsdfdsfdsf</div>
+	<div class="divBas" id="divBas"></div>
+	<script>
+	$(document).ready(function() {
+		gestion_menu_navigation_mois();
+		construction_select_choix();	
+		chargerDonnees().then(() => {
+			creation_Tableau();
+			console.log(informations.derniere_modification);
+			
+			});
+		$('#prevMonth').click(function() {
+			let mois = getParameter("mois");
+			let annee = getParameter("annee");
+			let choixSel = getParameter("choixSel");
+			let id_subdivision = getParameter("id_subdivision");
+			let id_pole = getParameter("id_pole");
+			if (typeof mois === "undefined")		{mois  = (new Date).getMonth()+1;}
+			if (typeof annee === "undefined")		{annee  = (new Date).getFullYear();}
+			
+			let TextechoixSel = "";
+			let Texteid_subdivision = "";
+			let Texteid_pole = "";
+			
+			if (typeof choixSel === "undefined" || choixSel == ""){TextechoixSel = "";} else {TextechoixSel = "&choixSel="+choixSel;}
+			if (typeof id_subdivision === "undefined" || id_subdivision == ""){Texteid_subdivision = "";} else {Texteid_subdivision = "&id_subdivision="+id_subdivision;}
+			if (typeof id_pole === "undefined" || id_pole == ""){Texteid_pole = "";} else {Texteid_pole = "&id_pole="+id_pole;}
+			
+			var date = new Date(annee+"-"+mois+"-01");
+			date.setMonth(date.getMonth() - 1);
+			var year = date.getFullYear();
+			var month = ('0' + (date.getMonth() + 1)).slice(-2);  
+		
+			window.location.replace("calendrier.html?mois="+month+"&annee="+year+TextechoixSel+Texteid_subdivision+Texteid_pole);
+			});
+		$('#nextMonth').click(function() {
+			let mois = getParameter("mois");
+			let annee = getParameter("annee");
+			let id_subdivision = getParameter("id_subdivision");
+			let id_pole = getParameter("id_pole");
+			let choixSel = getParameter("choixSel");
+			if (typeof mois === "undefined")		{mois  = (new Date).getMonth()+1;}
+			if (typeof annee === "undefined")		{annee  = (new Date).getFullYear();}
+			
+			let TextechoixSel = "";
+			let Texteid_subdivision = "";
+			let Texteid_pole = "";
+			
+			if (typeof choixSel === "undefined" || choixSel == ""){TextechoixSel = "";} else {TextechoixSel = "&choixSel="+choixSel;}
+			if (typeof id_subdivision === "undefined" || id_subdivision == ""){Texteid_subdivision = "";} else {Texteid_subdivision = "&id_subdivision="+id_subdivision;}
+			if (typeof id_pole === "undefined" || id_pole == ""){Texteid_pole = "";} else {Texteid_pole = "&id_pole="+id_pole;}
+			
+			var date = new Date(annee+"-"+mois+"-01");
+			date.setMonth(date.getMonth() + 1);
+			var year = date.getFullYear();
+			var month = ('0' + (date.getMonth() + 1)).slice(-2);  
+		
+			window.location.replace("calendrier.html?mois="+month+"&annee="+year+TextechoixSel+Texteid_subdivision+Texteid_pole);
+			});
+		$('#btnRefresh').click(function() {
+			window.location.reload();
+			});
+		$('#logo').click(function() {
+			window.location.replace("calendrier.html");
+			});
+		$('#btnLogout').click(function() {
+			sessionStorage.removeItem("dC");
+			window.location.replace("index.html");
+			});
+		$("#btnFullScreen").on("click", async function() {
+		const elem = document.documentElement;
+		try {
+			if (!isFullscreen()) {
+				await enterFullscreen(elem);
+				// petit délai pour laisser le navigateur basculer en fullscreen
+				await new Promise(r => setTimeout(r, 120));
+				try {
+					await lockOrientation('landscape');
+					// retirer tout fallback CSS si present
+					$('body').removeClass('force-portrait force-landscape');
+					} catch (err) {
+					console.warn('Lock orientation failed or unsupported:', err);
+					// fallback visuel : forcer la classe paysage
+					$('body').removeClass('force-portrait').addClass('force-landscape');
+					}
+				} 
+			else {
+				// déjà en plein écran -> basculer entre portrait/landscape
+				const current = getCurrentOrientationKind();
+				const target = (current === 'portrait') ? 'landscape' : 'portrait';
+				try {
+					await lockOrientation(target);
+					// enlever les classes fallback si lock réussi
+					$('body').removeClass('force-portrait force-landscape');
+					} catch (err) {
+					console.warn('Lock orientation failed or unsupported:', err);
+					// fallback visuel : toggle classes
+					if ($('body').hasClass('force-landscape')) {
+						$('body').removeClass('force-landscape').addClass('force-portrait');
+						} else {
+						$('body').removeClass('force-portrait').addClass('force-landscape');
+						}
+					}
+				}
+			} catch (e) {
+			console.warn('Erreur plein écran / orientation:', e);
+			}
+		});
+
+		$('#AlertTableau').hide();
+		if (testSession()){tempsSession();}
+		
+			
+		});
 	
+	
+	document.addEventListener('fullscreenchange', onFullScreenChange);
+	document.addEventListener('webkitfullscreenchange', onFullScreenChange);
+	document.addEventListener('msfullscreenchange', onFullScreenChange);
+	</script>
 </body>
 </html>
