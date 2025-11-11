@@ -1,7 +1,29 @@
 body{
 	font-family:"Inter",system-ui,sans-serif;
-	margin:0;background:#f6f8fb;color:#0f172a;
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background:#f6f8fb;
+	color:#0f172a;
 	}
+body.force-landscape {
+  transform: rotate(90deg);
+  transform-origin: center center;
+  width: 100vh; /* on inverse largeur/hauteur */
+  height: 100vw;
+  overflow: hidden;
+}
+body.force-portrait {
+  transform: rotate(0deg);
+  transform-origin: center center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+body.force-landscape, body.force-portrait {
+  transition: transform 300ms ease;
+}
 .app-header{
 	display:flex;
 	align-items:center;
@@ -26,14 +48,19 @@ body{
 	font-weight:700;font-size:18px;
 	color:#334f70;
 	}
+.title{
+	margin-top: -8px;
+	}
 .title h1{
 	margin:0;
-	font-size:17px;
-	font-weight:700
+	font-size:15px;
+	font-weight:700;
+	color: #FACC15;
+	margin-bottom:4px;
 	}
 .title p{
 	margin:0;
-	font-size:12px;
+	font-size:11px;
 	opacity:0.95
 	}
 .header-actions{
@@ -71,6 +98,17 @@ body{
 	/* background:#334F70; */
 	/* box-shadow:0 6px 18px rgba(34,60,80,0.08); */
 	/* border: 1px solid #E4E0E0; */
+	}
+.rappelAgent{
+	flex-wrap:wrap;
+	gap:10px;
+	align-items:center;
+	margin-top:25px;
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 20px;
+	font-weight:600;
+	text-align:center;
+	margin-bottom:40px;
 	}
 .controlsChoix{
 	flex-wrap:wrap;
@@ -110,7 +148,7 @@ body{
 	}
 .nav-btn{
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
-	font-size:11px;
+	font-size:20px;
 	background: #FACC15;
 	border:1px solid rgba(255,255,255,0.18);
 	color:#334f70;
@@ -121,7 +159,19 @@ body{
 	font-weight:600;
 	transition:all .12s;
 	cursor:pointer;
-	width:90px;
+	width:35px;
+	}
+.back{
+	background: transparent;
+	width: 40px;
+	color: #FFF;
+	font-size: 28px;
+	padding: 0px;
+	}
+.TextBack{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size:15px;
+	color:#FFF;
 	}
 .calendar-wrap{
 	overflow:auto;
@@ -155,10 +205,10 @@ body{
 	left: 12px;
 	right: 0;
 	width:115px;
-	background-color:#FFF6D4;
 	border-right:1px solid #CCCCCC;
 	border-radius:12px 0px 0px 12px;
 	padding-top:39px;
+	background-color:#FFFFFF;
 	}
 .partie_tableau_droite{
 	flex:1;
@@ -173,10 +223,27 @@ body{
 .ligne_agent{
 	display:flex;
 	}	
-.LigneNom, .Cellulejour,.jourNum, .jourJ, .jourS{
+.ligneTache_agent{
+	display:flex;
+	}	
+.LigneNom, .Cellulejour,.jourNum, .jourJ, .jourS, .CelluleTachejour, .CelluleTachejourAgent, .LigneNomService{
 	border-color: #EAEAEA !important;
 	}		
 .LigneNom{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 13px;
+	text-align:left;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #FFFFFF;
+	padding-left: 4px;
+	line-height: 46px;
+	/* padding-top:10px; */
+	/* padding-bottom:10px; */
+	box-sizing: border-box;
+	background-color:#FFF6D4;
+	
+	}
+.LigneNomService{
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
 	font-size: 13px;
 	text-align:left;
@@ -187,9 +254,10 @@ body{
 	/* padding-top:10px; */
 	/* padding-bottom:10px; */
 	box-sizing: border-box;
+	background-color:#FFF6D4;
 	
 	}
-.Cellulejour, .jourNum, .jourJ, .jourS{
+.Cellulejour, .jourNum, .jourJ, .jourS, .CelluleTachejour, .CelluleTachejourAgent{
 	flex:1;
 	box-sizing: border-box;
 	}
@@ -205,6 +273,26 @@ body{
 	/* padding-bottom:10px; */
 	flex:1;
 	}
+.CelluleTachejour{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	text-align:center;
+	box-sizing: border-box;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 15px;
+	/* flex:1; */
+	}
+.CelluleTachejourAgent{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	text-align:center;
+	box-sizing: border-box;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 30px;
+	/* flex:1; */
+	}
 .jourNum, .jourJ, .jourS{
 	line-height: 20px;
 	height: 20px;
@@ -218,6 +306,16 @@ body{
 .div{
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
 	border-radius: 4px;
+	font-size: 10px;
+	height: 100%;
+	align-items: center; 
+	justify-content: center;
+	box-sizing: border-box;
+	display: flex;
+	}
+.divTache{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	border-radius: 2px;
 	font-size: 10px;
 	height: 100%;
 	align-items: center; 
@@ -259,10 +357,11 @@ body{
 	}	
 .week-range{
 	text-align: center;
+	line-height:30px;
 	}	
 .week-range a{
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
-	font-size: 13px;
+	font-size: 15px;
 	color:#334F70;
 	text-decoration:none;
 	}	
@@ -277,7 +376,10 @@ body{
 	color:red;
 	margin-top:30px;
 	padding-left: 50px;
-  padding-right: 50px;
+	padding-right: 50px;
+	}
+.erreur span{
+	color:#334F70;
 	}
 .erreur i{
 	font-size: 47px;
@@ -288,33 +390,33 @@ body{
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
 	font-size: 14px;
 	width: 100%;
-	border: 1px solid #000;
+	border: 1px solid #334F703D;
 	border-radius: 7px;
 	text-align: center;
-	background-color:#334F70;
-	color:#FACC15;
+	background-color: #FFF;
+	color: #334F70;
 	}		
 .selectionPole{
 	height: 35px;
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
 	font-size: 14px;
 	width: 100%;
-	border: 1px solid #000;
+	border: 1px solid #334F703D;
 	border-radius: 7px;
 	text-align: center;
-	background-color:#334F70;
-	color:#FACC15;
+	background-color: #FFF;
+	color: #334F70;
 	}		
 .selectionChoix{
 	height: 35px;
 	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
 	font-size: 14px;
 	width: 100%;
-	border: 1px solid #000;
+	border: 1px solid #334F703D;
 	border-radius: 7px;
 	text-align: center;
-	background-color:#334F70;
-	color:#FACC15;
+	background-color: #FFF;
+	color: #334F70;
 	}		
 .divBas{
 	position: fixed;   /* position fixe par rapport à la fenêtre */
@@ -335,7 +437,28 @@ body{
 	opacity: 0;           /* invisible au départ */
 	transform: translateY(30px); /* position basse pour l’animation */
 	display: none;        /* caché initialement */
-
-  
+	}
+.divBas a{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 15px;
+	text-decoration: none;
+	color: #334F70;
+	font-weight: 600;
+	margin-left: 10px;
 	}		
-	
+.derniere_modif{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	color: #334F70;
+	text-align:right;
+	font-style:italic;
+	margin-top: 5px;
+	padding-right: 8px;
+	}		
+.tips{
+	font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+	font-size: 11px;
+	color: #334F70;
+	text-align:center;
+	margin-top:20px;
+	}		
