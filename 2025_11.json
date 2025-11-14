@@ -1,7 +1,7 @@
 {
     "informations": [
         {
-            "derniere_modification": "2025-11-14 18:35:56"
+            "derniere_modification": "2025-11-14 18:36:03"
         }
     ],
     "agents": [
@@ -1958,11 +1958,11 @@
         {
             "id": 17747,
             "id_agent": "7",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-24",
             "fin": "2025-11-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
