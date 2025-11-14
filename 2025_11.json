@@ -1,7 +1,7 @@
 {
     "informations": [
         {
-            "derniere_modification": "2025-11-11 18:06:26"
+            "derniere_modification": "2025-11-14 18:28:18"
         }
     ],
     "agents": [
@@ -104,18 +104,18 @@
             "id_pole": "3"
         },
         {
-            "id": 72,
-            "firstname": "Gael",
-            "lastname": "Duvert",
-            "id_subdivision": "1",
-            "id_pole": "1"
-        },
-        {
             "id": 45,
             "firstname": "Laurent",
             "lastname": "Duvert",
             "id_subdivision": "11",
             "id_pole": "3"
+        },
+        {
+            "id": 72,
+            "firstname": "Gael",
+            "lastname": "Duvert",
+            "id_subdivision": "1",
+            "id_pole": "1"
         },
         {
             "id": 69,
@@ -293,6 +293,13 @@
             "id_pole": "2"
         },
         {
+            "id": 75,
+            "firstname": "Abdoul",
+            "lastname": "Sall",
+            "id_subdivision": "5",
+            "id_pole": "2"
+        },
+        {
             "id": 22,
             "firstname": "Alain",
             "lastname": "Samson",
@@ -466,11 +473,11 @@
         {
             "id": 15780,
             "id_agent": "68",
-            "jour": "J",
+            "jour": "R",
             "debut": "2025-11-18",
             "fin": "2025-11-18",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "c1ffbd",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -488,11 +495,11 @@
         {
             "id": 15783,
             "id_agent": "68",
-            "jour": "R",
+            "jour": "J",
             "debut": "2025-11-21",
             "fin": "2025-11-21",
-            "background": "c1ffbd",
-            "color": "0f0404",
+            "background": "ffffff",
+            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -579,17 +586,6 @@
             "jour": "J",
             "debut": "2025-11-12",
             "fin": "2025-11-12",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 15857,
-            "id_agent": "25",
-            "jour": "J",
-            "debut": "2025-11-13",
-            "fin": "2025-11-13",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -686,11 +682,11 @@
         {
             "id": 15867,
             "id_agent": "25",
-            "jour": "J",
+            "jour": "CA",
             "debut": "2025-11-27",
             "fin": "2025-11-27",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "c1ffbd",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -832,17 +828,6 @@
             "jour": "J",
             "debut": "2025-11-18",
             "fin": "2025-11-18",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 15921,
-            "id_agent": "11",
-            "jour": "J",
-            "debut": "2025-11-19",
-            "fin": "2025-11-19",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -1038,10 +1023,10 @@
         {
             "id": 15978,
             "id_agent": "10",
-            "jour": "J",
+            "jour": "W",
             "debut": "2025-11-14",
             "fin": "2025-11-14",
-            "background": "ffffff",
+            "background": "c7f8ff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -1203,11 +1188,11 @@
         {
             "id": 17621,
             "id_agent": "18",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-14",
             "fin": "2025-11-14",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1300,6 +1285,17 @@
             "duree": "1"
         },
         {
+            "id": 17650,
+            "id_agent": "19",
+            "jour": "J",
+            "debut": "2025-11-27",
+            "fin": "2025-11-27",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 17651,
             "id_agent": "19",
             "jour": "J",
@@ -1377,17 +1373,6 @@
             "duree": "1"
         },
         {
-            "id": 17665,
-            "id_agent": "6",
-            "jour": "R",
-            "debut": "2025-11-20",
-            "fin": "2025-11-20",
-            "background": "c1ffbd",
-            "color": "0f0404",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 17666,
             "id_agent": "6",
             "jour": "OFF",
@@ -1421,6 +1406,17 @@
             "duree": "1"
         },
         {
+            "id": 17674,
+            "id_agent": "5",
+            "jour": "J",
+            "debut": "2025-11-05",
+            "fin": "2025-11-05",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 17675,
             "id_agent": "5",
             "jour": "J",
@@ -1445,11 +1441,11 @@
         {
             "id": 17677,
             "id_agent": "5",
-            "jour": "J",
+            "jour": "R",
             "debut": "2025-11-10",
             "fin": "2025-11-10",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "c1ffbd",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1498,6 +1494,17 @@
             "duree": "1"
         },
         {
+            "id": 17682,
+            "id_agent": "5",
+            "jour": "J",
+            "debut": "2025-11-17",
+            "fin": "2025-11-17",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 17683,
             "id_agent": "5",
             "jour": "J",
@@ -1511,11 +1518,22 @@
         {
             "id": 17684,
             "id_agent": "5",
-            "jour": "J",
+            "jour": "TT",
             "debut": "2025-11-19",
             "fin": "2025-11-19",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "003bde",
+            "color": "ffffff",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 17686,
+            "id_agent": "5",
+            "jour": "OFF",
+            "debut": "2025-11-21",
+            "fin": "2025-11-21",
+            "background": "f7ffd0",
+            "color": "f98d8d",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1558,6 +1576,17 @@
             "jour": "J",
             "debut": "2025-11-27",
             "fin": "2025-11-27",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 17691,
+            "id_agent": "5",
+            "jour": "J",
+            "debut": "2025-11-28",
+            "fin": "2025-11-28",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -1646,6 +1675,17 @@
             "jour": "J",
             "debut": "2025-11-26",
             "fin": "2025-11-26",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 17710,
+            "id_agent": "20",
+            "jour": "J",
+            "debut": "2025-11-27",
+            "fin": "2025-11-27",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -2730,6 +2770,17 @@
             "duree": "1"
         },
         {
+            "id": 19598,
+            "id_agent": "29",
+            "jour": "B",
+            "debut": "2025-11-03",
+            "fin": "2025-11-03",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 19599,
             "id_agent": "29",
             "jour": "B",
@@ -2754,11 +2805,11 @@
         {
             "id": 19601,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "B",
             "debut": "2025-11-06",
             "fin": "2025-11-06",
-            "background": "c1ffbd",
-            "color": "3f9972",
+            "background": "ffffff",
+            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -2774,22 +2825,22 @@
             "duree": "1"
         },
         {
-            "id": 19605,
+            "id": 19604,
             "id_agent": "29",
             "jour": "B",
-            "debut": "2025-11-13",
-            "fin": "2025-11-13",
+            "debut": "2025-11-12",
+            "fin": "2025-11-12",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
         {
-            "id": 19606,
+            "id": 19605,
             "id_agent": "29",
             "jour": "B",
-            "debut": "2025-11-14",
-            "fin": "2025-11-14",
+            "debut": "2025-11-13",
+            "fin": "2025-11-13",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -2842,11 +2893,11 @@
         {
             "id": 19611,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-21",
             "fin": "2025-11-21",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -2906,6 +2957,17 @@
             "duree": "1"
         },
         {
+            "id": 19619,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-05",
+            "fin": "2025-11-05",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 19620,
             "id_agent": "30",
             "jour": "B",
@@ -2939,6 +3001,17 @@
             "duree": "1"
         },
         {
+            "id": 19623,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-12",
+            "fin": "2025-11-12",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 19627,
             "id_agent": "30",
             "jour": "B",
@@ -2966,6 +3039,72 @@
             "jour": "B",
             "debut": "2025-11-20",
             "fin": "2025-11-20",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19630,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-21",
+            "fin": "2025-11-21",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19631,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-24",
+            "fin": "2025-11-24",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19632,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-25",
+            "fin": "2025-11-25",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19633,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-26",
+            "fin": "2025-11-26",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19634,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-27",
+            "fin": "2025-11-27",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19635,
+            "id_agent": "30",
+            "jour": "B",
+            "debut": "2025-11-28",
+            "fin": "2025-11-28",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -3027,17 +3166,6 @@
             "duree": "1"
         },
         {
-            "id": 19642,
-            "id_agent": "31",
-            "jour": "B",
-            "debut": "2025-11-12",
-            "fin": "2025-11-12",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 19643,
             "id_agent": "31",
             "jour": "B",
@@ -3054,6 +3182,17 @@
             "jour": "B",
             "debut": "2025-11-14",
             "fin": "2025-11-14",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 19645,
+            "id_agent": "31",
+            "jour": "B",
+            "debut": "2025-11-17",
+            "fin": "2025-11-17",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -3170,17 +3309,6 @@
             "duree": "1"
         },
         {
-            "id": 20273,
-            "id_agent": "11",
-            "jour": "W",
-            "debut": "2025-11-08",
-            "fin": "2025-11-08",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "M",
-            "duree": "1"
-        },
-        {
             "id": 20274,
             "id_agent": "11",
             "jour": "W",
@@ -3203,23 +3331,12 @@
             "duree": "1"
         },
         {
-            "id": 20277,
-            "id_agent": "11",
-            "jour": "W",
-            "debut": "2025-11-13",
-            "fin": "2025-11-13",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "S",
-            "duree": "1"
-        },
-        {
             "id": 20278,
             "id_agent": "11",
-            "jour": "W",
+            "jour": "J",
             "debut": "2025-11-14",
             "fin": "2025-11-14",
-            "background": "c7f8ff",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -3266,17 +3383,6 @@
             "background": "c7f8ff",
             "color": "000000",
             "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 20648,
-            "id_agent": "27",
-            "jour": "W",
-            "debut": "2025-11-16",
-            "fin": "2025-11-16",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -3612,11 +3718,11 @@
         {
             "id": 24277,
             "id_agent": "68",
-            "jour": "W",
+            "jour": "OFF",
             "debut": "2025-11-25",
             "fin": "2025-11-25",
-            "background": "c7f8ff",
-            "color": "000000",
+            "background": "f7ffd0",
+            "color": "f98d8d",
             "coloriage": 0,
             "duree": "1"
         },
@@ -3896,6 +4002,39 @@
             "duree": "3"
         },
         {
+            "id": 25092,
+            "id_agent": "58",
+            "jour": "W",
+            "debut": "2025-11-12",
+            "fin": "2025-11-12",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 25093,
+            "id_agent": "58",
+            "jour": "W",
+            "debut": "2025-11-13",
+            "fin": "2025-11-13",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "S",
+            "duree": "1"
+        },
+        {
+            "id": 25094,
+            "id_agent": "58",
+            "jour": "W",
+            "debut": "2025-11-14",
+            "fin": "2025-11-14",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 25121,
             "id_agent": "58",
             "jour": "W",
@@ -3940,17 +4079,6 @@
             "duree": "1"
         },
         {
-            "id": 25127,
-            "id_agent": "58",
-            "jour": "J",
-            "debut": "2025-11-25",
-            "fin": "2025-11-25",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 25128,
             "id_agent": "58",
             "jour": "J",
@@ -3980,28 +4108,6 @@
             "fin": "2025-11-28",
             "background": "f7ffd0",
             "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 25957,
-            "id_agent": "45",
-            "jour": "B",
-            "debut": "2025-11-03",
-            "fin": "2025-11-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 25958,
-            "id_agent": "45",
-            "jour": "B",
-            "debut": "2025-11-04",
-            "fin": "2025-11-04",
-            "background": "ffffff",
-            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -4145,39 +4251,6 @@
             "fin": "2025-11-14",
             "background": "FFFFFF",
             "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 25980,
-            "id_agent": "45",
-            "jour": "CA",
-            "debut": "2025-11-05",
-            "fin": "2025-11-06",
-            "background": "c1ffbd",
-            "color": "0f0404",
-            "coloriage": 0,
-            "duree": "2"
-        },
-        {
-            "id": 25981,
-            "id_agent": "45",
-            "jour": "CA",
-            "debut": "2025-11-10",
-            "fin": "2025-11-10",
-            "background": "c1ffbd",
-            "color": "0f0404",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 25982,
-            "id_agent": "45",
-            "jour": "CA",
-            "debut": "2025-11-12",
-            "fin": "2025-11-12",
-            "background": "c1ffbd",
-            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -5018,28 +5091,6 @@
             "duree": "1"
         },
         {
-            "id": 29098,
-            "id_agent": "69",
-            "jour": "J",
-            "debut": "2025-11-17",
-            "fin": "2025-11-17",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 29101,
-            "id_agent": "69",
-            "jour": "J",
-            "debut": "2025-11-20",
-            "fin": "2025-11-20",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 29103,
             "id_agent": "69",
             "jour": "J",
@@ -5337,17 +5388,6 @@
             "duree": "1"
         },
         {
-            "id": 34541,
-            "id_agent": "23",
-            "jour": "J",
-            "debut": "2025-11-17",
-            "fin": "2025-11-17",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 34542,
             "id_agent": "23",
             "jour": "J",
@@ -5460,10 +5500,10 @@
         {
             "id": 34579,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-05",
             "fin": "2025-11-05",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -6690,17 +6730,6 @@
             "duree": "5"
         },
         {
-            "id": 34797,
-            "id_agent": "39",
-            "jour": "W",
-            "debut": "2025-11-10",
-            "fin": "2025-11-10",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "S",
-            "duree": "1"
-        },
-        {
             "id": 34800,
             "id_agent": "39",
             "jour": "J",
@@ -6802,22 +6831,22 @@
         {
             "id": 34823,
             "id_agent": "40",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-05",
             "fin": "2025-11-07",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
         {
             "id": 34828,
             "id_agent": "70",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-17",
             "fin": "2025-11-20",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "4"
         },
@@ -6855,24 +6884,13 @@
             "duree": "1"
         },
         {
-            "id": 34840,
-            "id_agent": "40",
-            "jour": "J",
-            "debut": "2025-11-10",
-            "fin": "2025-11-10",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 34845,
             "id_agent": "40",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-12",
             "fin": "2025-11-14",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
@@ -6938,17 +6956,6 @@
             "debut": "2025-11-28",
             "fin": "2025-11-28",
             "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 34852,
-            "id_agent": "41",
-            "jour": "J",
-            "debut": "2025-11-03",
-            "fin": "2025-11-03",
-            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7121,11 +7128,11 @@
         {
             "id": 34937,
             "id_agent": "21",
-            "jour": "TT",
+            "jour": "I",
             "debut": "2025-11-13",
             "fin": "2025-11-13",
-            "background": "003bde",
-            "color": "ffffff",
+            "background": "ffffff",
+            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -7154,10 +7161,10 @@
         {
             "id": 34982,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-03",
             "fin": "2025-11-03",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7165,10 +7172,10 @@
         {
             "id": 34983,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-04",
             "fin": "2025-11-04",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7176,10 +7183,10 @@
         {
             "id": 34984,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-06",
             "fin": "2025-11-06",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7187,7 +7194,7 @@
         {
             "id": 34985,
             "id_agent": "34",
-            "jour": "",
+            "jour": "TT \/ RTT",
             "debut": "2025-11-07",
             "fin": "2025-11-07",
             "background": "FFFFFF",
@@ -7198,10 +7205,10 @@
         {
             "id": 34986,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-10",
             "fin": "2025-11-10",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7209,7 +7216,7 @@
         {
             "id": 34987,
             "id_agent": "34",
-            "jour": "",
+            "jour": "TT \/ RTT",
             "debut": "2025-11-12",
             "fin": "2025-11-12",
             "background": "FFFFFF",
@@ -7220,10 +7227,10 @@
         {
             "id": 34988,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-13",
             "fin": "2025-11-13",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7231,10 +7238,10 @@
         {
             "id": 34989,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-14",
             "fin": "2025-11-14",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7242,10 +7249,10 @@
         {
             "id": 34990,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-17",
             "fin": "2025-11-17",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7253,10 +7260,10 @@
         {
             "id": 34991,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-18",
             "fin": "2025-11-18",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7264,7 +7271,7 @@
         {
             "id": 34992,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B \/ TT",
             "debut": "2025-11-19",
             "fin": "2025-11-19",
             "background": "FFFFFF",
@@ -7275,7 +7282,7 @@
         {
             "id": 34993,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B \/ RTT",
             "debut": "2025-11-20",
             "fin": "2025-11-20",
             "background": "FFFFFF",
@@ -7286,21 +7293,21 @@
         {
             "id": 34994,
             "id_agent": "34",
-            "jour": "",
+            "jour": "TT",
             "debut": "2025-11-21",
             "fin": "2025-11-21",
-            "background": "FFFFFF",
-            "color": "000000",
+            "background": "003bde",
+            "color": "ffffff",
             "coloriage": 0,
             "duree": "1"
         },
         {
             "id": 34995,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-24",
             "fin": "2025-11-24",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7308,10 +7315,10 @@
         {
             "id": 34996,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-25",
             "fin": "2025-11-25",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7319,7 +7326,7 @@
         {
             "id": 34997,
             "id_agent": "34",
-            "jour": "",
+            "jour": "TT \/ RTT",
             "debut": "2025-11-26",
             "fin": "2025-11-26",
             "background": "FFFFFF",
@@ -7330,10 +7337,10 @@
         {
             "id": 34998,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-27",
             "fin": "2025-11-27",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -7341,10 +7348,10 @@
         {
             "id": 34999,
             "id_agent": "34",
-            "jour": "",
+            "jour": "B",
             "debut": "2025-11-28",
             "fin": "2025-11-28",
-            "background": "FFFFFF",
+            "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -8210,11 +8217,11 @@
         {
             "id": 35387,
             "id_agent": "21",
-            "jour": "I",
+            "jour": "TT",
             "debut": "2025-11-10",
             "fin": "2025-11-10",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "003bde",
+            "color": "ffffff",
             "coloriage": 0,
             "duree": "1"
         },
@@ -8340,28 +8347,6 @@
             "duree": "1"
         },
         {
-            "id": 35403,
-            "id_agent": "25",
-            "jour": "W",
-            "debut": "2025-11-19",
-            "fin": "2025-11-19",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "M",
-            "duree": "1"
-        },
-        {
-            "id": 35404,
-            "id_agent": "69",
-            "jour": "OFF",
-            "debut": "2025-11-18",
-            "fin": "2025-11-18",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35405,
             "id_agent": "69",
             "jour": "J",
@@ -8391,28 +8376,6 @@
             "fin": "2025-11-19",
             "background": "f7ffd0",
             "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35408,
-            "id_agent": "69",
-            "jour": "W",
-            "debut": "2025-11-19",
-            "fin": "2025-11-19",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35409,
-            "id_agent": "69",
-            "jour": "J",
-            "debut": "2025-11-21",
-            "fin": "2025-11-21",
-            "background": "ffffff",
-            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -8780,17 +8743,6 @@
             "duree": "1"
         },
         {
-            "id": 35464,
-            "id_agent": "23",
-            "jour": "W",
-            "debut": "2025-11-14",
-            "fin": "2025-11-14",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35466,
             "id_agent": "15",
             "jour": "W",
@@ -8892,11 +8844,11 @@
         {
             "id": 35476,
             "id_agent": "70",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-27",
             "fin": "2025-11-27",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -9011,61 +8963,6 @@
             "duree": "1"
         },
         {
-            "id": 35509,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-03",
-            "fin": "2025-11-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35510,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-04",
-            "fin": "2025-11-04",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35511,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-05",
-            "fin": "2025-11-05",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35512,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-06",
-            "fin": "2025-11-06",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35514,
-            "id_agent": "71",
-            "jour": "OFF",
-            "debut": "2025-11-07",
-            "fin": "2025-11-07",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35521,
             "id_agent": "41",
             "jour": "CM",
@@ -9162,171 +9059,6 @@
             "background": "c7f8ff",
             "color": "000000",
             "coloriage": "S",
-            "duree": "1"
-        },
-        {
-            "id": 35559,
-            "id_agent": "16",
-            "jour": "J",
-            "debut": "2025-11-28",
-            "fin": "2025-11-28",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35560,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-10",
-            "fin": "2025-11-10",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35561,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-12",
-            "fin": "2025-11-12",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35562,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-13",
-            "fin": "2025-11-13",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35563,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-14",
-            "fin": "2025-11-14",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35564,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-17",
-            "fin": "2025-11-17",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35565,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-18",
-            "fin": "2025-11-18",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35566,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-19",
-            "fin": "2025-11-19",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35567,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-20",
-            "fin": "2025-11-20",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35569,
-            "id_agent": "71",
-            "jour": "OFF",
-            "debut": "2025-11-21",
-            "fin": "2025-11-21",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35570,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-24",
-            "fin": "2025-11-24",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35571,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-25",
-            "fin": "2025-11-25",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35572,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-26",
-            "fin": "2025-11-26",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35573,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-11-27",
-            "fin": "2025-11-27",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35575,
-            "id_agent": "71",
-            "jour": "OFF",
-            "debut": "2025-11-28",
-            "fin": "2025-11-28",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -9462,17 +9194,6 @@
             "duree": "1"
         },
         {
-            "id": 35988,
-            "id_agent": "22",
-            "jour": "",
-            "debut": "2025-11-25",
-            "fin": "2025-11-25",
-            "background": "FFFFFF",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 36024,
             "id_agent": "68",
             "jour": "ARTT",
@@ -9550,17 +9271,6 @@
             "duree": "2"
         },
         {
-            "id": 36039,
-            "id_agent": "6",
-            "jour": "CA",
-            "debut": "2025-11-10",
-            "fin": "2025-11-10",
-            "background": "c1ffbd",
-            "color": "0f0404",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 36044,
             "id_agent": "6",
             "jour": "CA",
@@ -9570,17 +9280,6 @@
             "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
-        },
-        {
-            "id": 36045,
-            "id_agent": "6",
-            "jour": "CA",
-            "debut": "2025-11-19",
-            "fin": "2025-11-19",
-            "background": "c1ffbd",
-            "color": "0f0404",
-            "coloriage": 0,
-            "duree": "1"
         },
         {
             "id": 36059,
@@ -9629,7 +9328,7 @@
         {
             "id": 36080,
             "id_agent": "61",
-            "jour": "PARTT",
+            "jour": "ARTT",
             "debut": "2025-11-24",
             "fin": "2025-11-25",
             "background": "c1ffbd",
@@ -9640,11 +9339,11 @@
         {
             "id": 36081,
             "id_agent": "61",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-11-26",
             "fin": "2025-11-27",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "2"
         },
@@ -9693,172 +9392,51 @@
             "duree": "1"
         },
         {
-            "id": 36143,
-            "id_agent": "31",
-            "jour": "B",
-            "debut": "2025-11-17",
-            "fin": "2025-11-17",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 36144,
-            "id_agent": "30",
-            "jour": "B",
-            "debut": "2025-11-21",
-            "fin": "2025-11-21",
-            "background": "FFFFFF",
-            "color": "000000",
+            "id_agent": "39",
+            "jour": "CM",
+            "debut": "2025-11-10",
+            "fin": "2025-11-10",
+            "background": "c7c7c7",
+            "color": "ffffff",
             "coloriage": 0,
             "duree": "1"
         },
         {
             "id": 36145,
-            "id_agent": "29",
-            "jour": "FT",
+            "id_agent": "40",
+            "jour": "W",
+            "debut": "2025-11-10",
+            "fin": "2025-11-10",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "S",
+            "duree": "1"
+        },
+        {
+            "id": 36155,
+            "id_agent": "71",
+            "jour": "CA",
+            "debut": "2025-11-03",
+            "fin": "2025-11-04",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "2"
+        },
+        {
+            "id": 36558,
+            "id_agent": "41",
+            "jour": "CA",
             "debut": "2025-11-03",
             "fin": "2025-11-03",
-            "background": "f0a8cc",
-            "color": "382020",
+            "background": "c1ffbd",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
         {
-            "id": 36146,
-            "id_agent": "29",
-            "jour": "FT",
-            "debut": "2025-11-12",
-            "fin": "2025-11-12",
-            "background": "f0a8cc",
-            "color": "382020",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36147,
-            "id_agent": "30",
-            "jour": "B",
-            "debut": "2025-11-05",
-            "fin": "2025-11-05",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36148,
-            "id_agent": "30",
-            "jour": "OFF",
-            "debut": "2025-11-12",
-            "fin": "2025-11-12",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36149,
-            "id_agent": "53",
-            "jour": "OFF",
-            "debut": "2025-11-05",
-            "fin": "2025-11-05",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36150,
-            "id_agent": "53",
-            "jour": "OFF",
-            "debut": "2025-11-11",
-            "fin": "2025-11-11",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36151,
-            "id_agent": "53",
-            "jour": "OFF",
-            "debut": "2025-11-19",
-            "fin": "2025-11-19",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36152,
-            "id_agent": "53",
-            "jour": "OFF",
-            "debut": "2025-11-26",
-            "fin": "2025-11-26",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36177,
-            "id_agent": "5",
-            "jour": "ABST",
-            "debut": "2025-11-05",
-            "fin": "2025-11-05",
-            "background": "ffff00",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36183,
-            "id_agent": "72",
-            "jour": "J",
-            "debut": "2025-11-18",
-            "fin": "2025-11-18",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36184,
-            "id_agent": "72",
-            "jour": "J",
-            "debut": "2025-11-17",
-            "fin": "2025-11-17",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36185,
-            "id_agent": "5",
-            "jour": "W",
-            "debut": "2025-11-21",
-            "fin": "2025-11-21",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "M",
-            "duree": "1"
-        },
-        {
-            "id": 36186,
-            "id_agent": "5",
-            "jour": "W",
-            "debut": "2025-11-20",
-            "fin": "2025-11-20",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 36187,
+            "id": 36571,
             "id_agent": "22",
             "jour": "J",
             "debut": "2025-11-24",
@@ -9869,19 +9447,30 @@
             "duree": "1"
         },
         {
-            "id": 36188,
-            "id_agent": "20",
-            "jour": "CM",
-            "debut": "2025-11-27",
-            "fin": "2025-11-27",
-            "background": "c7c7c7",
-            "color": "ffffff",
+            "id": 36572,
+            "id_agent": "22",
+            "jour": "J",
+            "debut": "2025-11-25",
+            "fin": "2025-11-25",
+            "background": "ffffff",
+            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
         {
-            "id": 36189,
-            "id_agent": "5",
+            "id": 36592,
+            "id_agent": "58",
+            "jour": "W",
+            "debut": "2025-11-25",
+            "fin": "2025-11-25",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36593,
+            "id_agent": "68",
             "jour": "J",
             "debut": "2025-11-28",
             "fin": "2025-11-28",
@@ -9891,279 +9480,1728 @@
             "duree": "1"
         },
         {
-            "id": 36190,
-            "id_agent": "19",
-            "jour": "ASA",
+            "id": 36594,
+            "id_agent": "16",
+            "jour": "J",
             "debut": "2025-11-27",
             "fin": "2025-11-27",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
+        },
+        {
+            "id": 36597,
+            "id_agent": "69",
+            "jour": "STE",
+            "debut": "2025-11-17",
+            "fin": "2025-11-21",
+            "background": "d67ed9",
+            "color": "fffafa",
+            "coloriage": 0,
+            "duree": "5"
+        },
+        {
+            "id": 36626,
+            "id_agent": "27",
+            "jour": "W",
+            "debut": "2025-11-08",
+            "fin": "2025-11-08",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "M",
+            "duree": "1"
+        },
+        {
+            "id": 36627,
+            "id_agent": "11",
+            "jour": "W",
+            "debut": "2025-11-16",
+            "fin": "2025-11-16",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "S",
+            "duree": "1"
+        },
+        {
+            "id": 36633,
+            "id_agent": "6",
+            "jour": "J",
+            "debut": "2025-11-10",
+            "fin": "2025-11-10",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36636,
+            "id_agent": "6",
+            "jour": "CA",
+            "debut": "2025-11-19",
+            "fin": "2025-11-20",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "2"
+        },
+        {
+            "id": 36647,
+            "id_agent": "23",
+            "jour": "W",
+            "debut": "2025-11-17",
+            "fin": "2025-11-17",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36648,
+            "id_agent": "23",
+            "jour": "CA",
+            "debut": "2025-11-14",
+            "fin": "2025-11-14",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36649,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-03",
+            "fin": "2025-11-03",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36650,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-04",
+            "fin": "2025-11-04",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36651,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-05",
+            "fin": "2025-11-05",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36652,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-06",
+            "fin": "2025-11-06",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36654,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-17",
+            "fin": "2025-11-17",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36655,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-18",
+            "fin": "2025-11-18",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36656,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-19",
+            "fin": "2025-11-19",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36657,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-20",
+            "fin": "2025-11-20",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36659,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-07",
+            "fin": "2025-11-07",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36660,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-10",
+            "fin": "2025-11-10",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36661,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-12",
+            "fin": "2025-11-12",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36662,
+            "id_agent": "75",
+            "jour": "RTT",
+            "debut": "2025-11-14",
+            "fin": "2025-11-14",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36663,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-13",
+            "fin": "2025-11-13",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36664,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-21",
+            "fin": "2025-11-21",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36665,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-24",
+            "fin": "2025-11-24",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36666,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-25",
+            "fin": "2025-11-25",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36667,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-26",
+            "fin": "2025-11-26",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36668,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-11-27",
+            "fin": "2025-11-27",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36669,
+            "id_agent": "75",
+            "jour": "RTT",
+            "debut": "2025-11-28",
+            "fin": "2025-11-28",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36707,
+            "id_agent": "45",
+            "jour": "CA",
+            "debut": "2025-11-03",
+            "fin": "2025-11-06",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "4"
+        },
+        {
+            "id": 36802,
+            "id_agent": "45",
+            "jour": "B",
+            "debut": "2025-11-10",
+            "fin": "2025-11-10",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36803,
+            "id_agent": "45",
+            "jour": "B",
+            "debut": "2025-11-12",
+            "fin": "2025-11-12",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36804,
+            "id_agent": "11",
+            "jour": "W",
+            "debut": "2025-11-19",
+            "fin": "2025-11-19",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "M",
+            "duree": "1"
+        },
+        {
+            "id": 36805,
+            "id_agent": "25",
+            "jour": "J",
+            "debut": "2025-11-19",
+            "fin": "2025-11-19",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36808,
+            "id_agent": "29",
+            "jour": "CA",
+            "debut": "2025-11-14",
+            "fin": "2025-11-14",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36813,
+            "id_agent": "11",
+            "jour": "J",
+            "debut": "2025-11-13",
+            "fin": "2025-11-13",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36814,
+            "id_agent": "25",
+            "jour": "W",
+            "debut": "2025-11-13",
+            "fin": "2025-11-13",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "S",
+            "duree": "1"
+        },
+        {
+            "id": 36818,
+            "id_agent": "31",
+            "jour": "CA",
+            "debut": "2025-11-12",
+            "fin": "2025-11-12",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36835,
+            "id_agent": "5",
+            "jour": "PARTT",
+            "debut": "2025-11-20",
+            "fin": "2025-11-20",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
         }
     ],
     "taches": [
         {
-            "id_tache": 8,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-10",
-            "background": "cc9b9b",
-            "color": "fff0f0",
+            "id_tache": 1158,
+            "tache_courte": "ILS",
+            "tache": "Système ILS Niveau 3",
+            "debut": "2025-11-24",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "4"
+        },
+        {
+            "id_tache": 1213,
+            "tache_courte": "DME roa",
+            "tache": "Semestrielle DME Roanne",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
             "duree": "1"
         },
         {
-            "id_tache": 8,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-10",
-            "background": "cc9b9b",
-            "color": "fff0f0",
+            "id_tache": 1213,
+            "tache_courte": "DME roa",
+            "tache": "Semestrielle DME Roanne",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
             "duree": "1"
         },
         {
-            "id_tache": 8,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-10",
-            "background": "cc9b9b",
-            "color": "fff0f0",
+            "id_tache": 1215,
+            "tache_courte": "DME 35r",
+            "tache": "Semestrielle DME 35R",
+            "debut": "2025-11-24",
+            "background": "edc75f",
+            "color": "8e6c0c",
             "duree": "1"
         },
         {
-            "id_tache": 8,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-10",
-            "background": "cc9b9b",
-            "color": "fff0f0",
+            "id_tache": 1215,
+            "tache_courte": "DME 35r",
+            "tache": "Semestrielle DME 35R",
+            "debut": "2025-11-24",
+            "background": "edc75f",
+            "color": "8e6c0c",
             "duree": "1"
         },
         {
-            "id_tache": 8,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-10",
-            "background": "cc9b9b",
-            "color": "fff0f0",
+            "id_tache": 1212,
+            "tache_courte": "DME 35l",
+            "tache": "Semestrielle DME 35L",
+            "debut": "2025-11-05",
+            "background": "edc75f",
+            "color": "8e6c0c",
             "duree": "1"
         },
         {
-            "id_tache": 8,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-10",
-            "background": "cc9b9b",
-            "color": "fff0f0",
+            "id_tache": 1212,
+            "tache_courte": "DME 35l",
+            "tache": "Semestrielle DME 35L",
+            "debut": "2025-11-05",
+            "background": "edc75f",
+            "color": "8e6c0c",
             "duree": "1"
         },
         {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 9,
-            "tache_courte": "dz",
-            "tache": "zaeaze",
-            "debut": "2025-11-12",
-            "background": "cc9b9b",
-            "color": "fff0f0",
-            "duree": "2"
-        },
-        {
-            "id_tache": 7,
-            "tache_courte": "TEST",
-            "tache": "Essai d&#39;activité super bien",
+            "id_tache": 1599,
+            "tache_courte": "RPO",
+            "tache": "",
             "debut": "2025-11-17",
-            "background": "0024ed",
-            "color": "ffffff",
+            "background": "c5ff6e",
+            "color": "000000",
             "duree": "5"
         },
         {
-            "id_tache": 7,
-            "tache_courte": "TEST",
-            "tache": "Essai d&#39;activité super bien",
-            "debut": "2025-11-17",
+            "id_tache": 1673,
+            "tache_courte": "LFLC",
+            "tache": "Maintenance ASI F SEVES",
+            "debut": "2025-11-05",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1673,
+            "tache_courte": "LFLC",
+            "tache": "Maintenance ASI F SEVES",
+            "debut": "2025-11-05",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1674,
+            "tache_courte": "LFLC ",
+            "tache": "Maintenance ASI G SEVES",
+            "debut": "2025-11-06",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1674,
+            "tache_courte": "LFLC ",
+            "tache": "Maintenance ASI G SEVES",
+            "debut": "2025-11-06",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1222,
+            "tache_courte": "GP 35l",
+            "tache": "Semestrielle GLIDE 35L",
+            "debut": "2025-11-03",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1222,
+            "tache_courte": "GP 35l",
+            "tache": "Semestrielle GLIDE 35L",
+            "debut": "2025-11-03",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1522,
+            "tache_courte": "AA DIEE",
+            "tache": "Annuelle Diemoz CED",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1522,
+            "tache_courte": "AA DIEE",
+            "tache": "Annuelle Diemoz CED",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1534,
+            "tache_courte": "isatis",
+            "tache": "Mensuelle ISATIS",
+            "debut": "2025-11-24",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1534,
+            "tache_courte": "isatis",
+            "tache": "Mensuelle ISATIS",
+            "debut": "2025-11-24",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1533,
+            "tache_courte": "Raia",
+            "tache": "Mensuelle Chaine RAIATEA",
+            "debut": "2025-11-24",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1533,
+            "tache_courte": "Raia",
+            "tache": "Mensuelle Chaine RAIATEA",
+            "debut": "2025-11-24",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
             "background": "0024ed",
             "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1764,
+            "tache_courte": "GSST",
+            "tache": "Réunion GSST",
+            "debut": "2025-11-25",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1766,
+            "tache_courte": "RPO",
+            "tache": "Semaine de permanence RPO",
+            "debut": "2025-11-10",
+            "background": "c5ff6e",
+            "color": "000000",
+            "duree": "8"
+        },
+        {
+            "id_tache": 1770,
+            "tache_courte": "RAIATEA",
+            "tache": "Stage RAIATEA TPH",
+            "debut": "2025-11-24",
+            "background": "f7b9b9",
+            "color": "000000",
             "duree": "5"
         },
         {
-            "id_tache": 7,
-            "tache_courte": "TEST",
-            "tache": "Essai d&#39;activité super bien",
-            "debut": "2025-11-17",
-            "background": "0024ed",
-            "color": "ffffff",
+            "id_tache": 1770,
+            "tache_courte": "RAIATEA",
+            "tache": "Stage RAIATEA TPH",
+            "debut": "2025-11-24",
+            "background": "f7b9b9",
+            "color": "000000",
             "duree": "5"
         },
         {
-            "id_tache": 7,
-            "tache_courte": "TEST",
-            "tache": "Essai d&#39;activité super bien",
-            "debut": "2025-11-17",
-            "background": "0024ed",
-            "color": "ffffff",
-            "duree": "5"
+            "id_tache": 1779,
+            "tache_courte": "FS",
+            "tache": "formation FS",
+            "debut": "2025-11-06",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "2"
         },
         {
-            "id_tache": 7,
-            "tache_courte": "TEST",
-            "tache": "Essai d&#39;activité super bien",
-            "debut": "2025-11-17",
-            "background": "0024ed",
-            "color": "ffffff",
-            "duree": "5"
+            "id_tache": 1780,
+            "tache_courte": "FS",
+            "tache": "formation FS",
+            "debut": "2025-11-27",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "2"
         },
         {
-            "id_tache": 7,
-            "tache_courte": "TEST",
-            "tache": "Essai d&#39;activité super bien",
-            "debut": "2025-11-17",
-            "background": "0024ed",
-            "color": "ffffff",
-            "duree": "5"
+            "id_tache": 1523,
+            "tache_courte": "AA SQR",
+            "tache": "Annuelle Saint Quentin CRD",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
         },
         {
-            "id_tache": 11,
-            "tache_courte": "eee",
-            "tache": "eeee",
+            "id_tache": 1523,
+            "tache_courte": "AA SQR",
+            "tache": "Annuelle Saint Quentin CRD",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1523,
+            "tache_courte": "AA SQR",
+            "tache": "Annuelle Saint Quentin CRD",
+            "debut": "2025-11-12",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1954,
+            "tache_courte": "GPSA",
+            "tache": "GPSA",
+            "debut": "2025-11-07",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1956,
+            "tache_courte": "dble MO",
+            "tache": "double MO",
+            "debut": "2025-11-04",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1765,
+            "tache_courte": "Audit",
+            "tache": "Auditeur DSNA",
+            "debut": "2025-11-03",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "4"
+        },
+        {
+            "id_tache": 1494,
+            "tache_courte": "VOR roa",
+            "tache": "Semestrielle VOR Roanne",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1494,
+            "tache_courte": "VOR roa",
+            "tache": "Semestrielle VOR Roanne",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1214,
+            "tache_courte": "DME mtl",
+            "tache": "Semestrielle DME MTL",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1214,
+            "tache_courte": "DME mtl",
+            "tache": "Semestrielle DME MTL",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1521,
+            "tache_courte": "SDIGIV",
+            "tache": "MESO S-DOGIVOI-IP à DIEMOZ ST-QUENTIN",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1521,
+            "tache_courte": "SDIGIV",
+            "tache": "MESO S-DOGIVOI-IP à DIEMOZ ST-QUENTIN",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1521,
+            "tache_courte": "SDIGIV",
+            "tache": "MESO S-DOGIVOI-IP à DIEMOZ ST-QUENTIN",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1521,
+            "tache_courte": "SDIGIV",
+            "tache": "MESO S-DOGIVOI-IP à DIEMOZ ST-QUENTIN",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1953,
+            "tache_courte": "Audit",
+            "tache": "Audit attestation de capacité CEMAFROID",
+            "debut": "2025-11-05",
+            "background": "c5ff6e",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1734,
+            "tache_courte": "LFMH",
+            "tache": "MALT -48V",
+            "debut": "2025-11-12",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1973,
+            "tache_courte": "SDIGIV",
+            "tache": "Validation ATH - DIE avec IxChariot ",
+            "debut": "2025-11-05",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1973,
+            "tache_courte": "SDIGIV",
+            "tache": "Validation ATH - DIE avec IxChariot ",
+            "debut": "2025-11-05",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1970,
+            "tache_courte": "LFLC",
+            "tache": "Cellule 1000 V avec la société Eiffage ",
+            "debut": "2025-11-20",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1970,
+            "tache_courte": "LFLC",
+            "tache": "Cellule 1000 V avec la société Eiffage ",
+            "debut": "2025-11-20",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1971,
+            "tache_courte": "LFLC",
+            "tache": "Cellule 1000 V avec la société Eiffage ",
+            "debut": "2025-11-27",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1971,
+            "tache_courte": "LFLC",
+            "tache": "Cellule 1000 V avec la société Eiffage ",
+            "debut": "2025-11-27",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1975,
+            "tache_courte": "CLST",
+            "tache": "panne chambéry",
+            "debut": "2025-11-26",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1975,
+            "tache_courte": "CLST",
+            "tache": "panne chambéry",
+            "debut": "2025-11-26",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1975,
+            "tache_courte": "CLST",
+            "tache": "panne chambéry",
+            "debut": "2025-11-26",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1977,
+            "tache_courte": "PATATE3",
+            "tache": "Réunion patate",
+            "debut": "2025-11-13",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1977,
+            "tache_courte": "PATATE3",
+            "tache": "Réunion patate",
+            "debut": "2025-11-13",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1722,
+            "tache_courte": "CERD 48",
+            "tache": "Maint 48VB CERD",
+            "debut": "2025-11-26",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1978,
+            "tache_courte": "LFLB",
+            "tache": "Changement balisage GLIDE   Batterie ASI 230V",
             "debut": "2025-11-13",
             "background": "edc75f",
             "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1978,
+            "tache_courte": "LFLB",
+            "tache": "Changement balisage GLIDE   Batterie ASI 230V",
+            "debut": "2025-11-13",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1979,
+            "tache_courte": "MVD",
+            "tache": "",
+            "debut": "2025-11-03",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1979,
+            "tache_courte": "MVD",
+            "tache": "",
+            "debut": "2025-11-03",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1980,
+            "tache_courte": "wanMVD",
+            "tache": "WAN-OPT-A",
+            "debut": "2025-11-20",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1980,
+            "tache_courte": "wanMVD",
+            "tache": "WAN-OPT-A",
+            "debut": "2025-11-20",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1981,
+            "tache_courte": "Clrmt",
+            "tache": "Films solaires",
+            "debut": "2025-11-03",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1955,
+            "tache_courte": "MVD",
+            "tache": "MESO CRNA",
+            "debut": "2025-11-17",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1683,
+            "tache_courte": "LFLPsol",
+            "tache": "MESO fréquence sol Annecy",
+            "debut": "2025-11-25",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1683,
+            "tache_courte": "LFLPsol",
+            "tache": "MESO fréquence sol Annecy",
+            "debut": "2025-11-25",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1720,
+            "tache_courte": "CERD 24",
+            "tache": "Maint 24VB CERD",
+            "debut": "2025-11-19",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1221,
+            "tache_courte": "LOC 35l",
+            "tache": "Semestrielle LOC 35L",
+            "debut": "2025-11-03",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1221,
+            "tache_courte": "LOC 35l",
+            "tache": "Semestrielle LOC 35L",
+            "debut": "2025-11-03",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1992,
+            "tache_courte": "IPM 17L",
+            "tache": "intervention IPM Mondia au  loc17L",
+            "debut": "2025-11-12",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1613,
+            "tache_courte": "GE",
+            "tache": "Démarrage des Groupes Electrogènes au CERD et AA",
+            "debut": "2025-11-04",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1613,
+            "tache_courte": "GE",
+            "tache": "Démarrage des Groupes Electrogènes au CERD et AA",
+            "debut": "2025-11-04",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1993,
+            "tache_courte": "MANLFLL",
+            "tache": "Formation théorique permis MAN Saint Ex",
+            "debut": "2025-11-24",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1994,
+            "tache_courte": "MANLFLL",
+            "tache": "Formation pratique MAN Saint Exupéry session 1",
+            "debut": "2025-11-27",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1999,
+            "tache_courte": "LFLC",
+            "tache": "Maintenance des Clims opérationnelle terrain avec Atalian",
+            "debut": "2025-11-26",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1988,
+            "tache_courte": "CBY",
+            "tache": "Arret de la clim   visite du site à Abdoul",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1988,
+            "tache_courte": "CBY",
+            "tache": "Arret de la clim   visite du site à Abdoul",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1988,
+            "tache_courte": "CBY",
+            "tache": "Arret de la clim   visite du site à Abdoul",
+            "debut": "2025-11-06",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1719,
+            "tache_courte": "CERD 24",
+            "tache": "Maint 24VA CERD",
+            "debut": "2025-11-18",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1720,
+            "tache_courte": "CERD 24",
+            "tache": "Maint 24VB CERD",
+            "debut": "2025-11-19",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1734,
+            "tache_courte": "LFMH",
+            "tache": "MALT -48V",
+            "debut": "2025-11-12",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2001,
+            "tache_courte": "MAN",
+            "tache": "",
+            "debut": "2025-11-27",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2002,
+            "tache_courte": "MAN",
+            "tache": "",
+            "debut": "2025-11-28",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2006,
+            "tache_courte": "LFLS",
+            "tache": "Remplacement Balisage Glide",
+            "debut": "2025-11-25",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1722,
+            "tache_courte": "CERD 48",
+            "tache": "Maint 48VB CERD",
+            "debut": "2025-11-26",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2007,
+            "tache_courte": "LFLS",
+            "tache": "dépannage clim vigie avec société AXIMA",
+            "debut": "2025-11-18",
+            "background": "c5ff6e",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2006,
+            "tache_courte": "LFLS",
+            "tache": "Remplacement Balisage Glide",
+            "debut": "2025-11-25",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1984,
+            "tache_courte": "ADL",
+            "tache": "Visite centrale Électrique ",
+            "debut": "2025-11-18",
+            "background": "c5ff6e",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1984,
+            "tache_courte": "ADL",
+            "tache": "Visite centrale Électrique ",
+            "debut": "2025-11-18",
+            "background": "c5ff6e",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2009,
+            "tache_courte": "LFLS",
+            "tache": "Dépannage clim Vigie avec AXIMA",
+            "debut": "2025-11-18",
+            "background": "d6d6d6",
+            "color": "696969",
             "duree": "1"
         }
     ],
     "taches_agents": [
         {
-            "id_tache": 8,
+            "id_tache": 1158,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1213,
+            "id_agent": "18"
+        },
+        {
+            "id_tache": 1213,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 1215,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 1215,
+            "id_agent": "22"
+        },
+        {
+            "id_tache": 1212,
+            "id_agent": "20"
+        },
+        {
+            "id_tache": 1212,
+            "id_agent": "7"
+        },
+        {
+            "id_tache": 1599,
+            "id_agent": "44"
+        },
+        {
+            "id_tache": 1673,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1673,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1674,
+            "id_agent": "30"
+        },
+        {
+            "id_tache": 1674,
+            "id_agent": "31"
+        },
+        {
+            "id_tache": 1222,
+            "id_agent": "6"
+        },
+        {
+            "id_tache": 1222,
+            "id_agent": "7"
+        },
+        {
+            "id_tache": 1522,
+            "id_agent": "25"
+        },
+        {
+            "id_tache": 1522,
             "id_agent": "61"
         },
         {
-            "id_tache": 8,
-            "id_agent": "11"
-        },
-        {
-            "id_tache": 8,
+            "id_tache": 1534,
             "id_agent": "27"
         },
         {
-            "id_tache": 8,
-            "id_agent": "19"
+            "id_tache": 1534,
+            "id_agent": "58"
         },
         {
-            "id_tache": 8,
+            "id_tache": 1533,
+            "id_agent": "27"
+        },
+        {
+            "id_tache": 1533,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "38"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "21"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "54"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "8"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "47"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "65"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "34"
+        },
+        {
+            "id_tache": 1764,
+            "id_agent": "60"
+        },
+        {
+            "id_tache": 1766,
+            "id_agent": "65"
+        },
+        {
+            "id_tache": 1770,
+            "id_agent": "23"
+        },
+        {
+            "id_tache": 1770,
+            "id_agent": "34"
+        },
+        {
+            "id_tache": 1779,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1780,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 1523,
+            "id_agent": "68"
+        },
+        {
+            "id_tache": 1523,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1523,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 1954,
+            "id_agent": "65"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "68"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "25"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "11"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "27"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 1956,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1765,
+            "id_agent": "65"
+        },
+        {
+            "id_tache": 1494,
             "id_agent": "6"
         },
         {
-            "id_tache": 8,
-            "id_agent": "5"
-        },
-        {
-            "id_tache": 9,
-            "id_agent": "74"
-        },
-        {
-            "id_tache": 9,
-            "id_agent": "19"
-        },
-        {
-            "id_tache": 9,
-            "id_agent": "6"
-        },
-        {
-            "id_tache": 9,
-            "id_agent": "5"
-        },
-        {
-            "id_tache": 9,
+            "id_tache": 1494,
             "id_agent": "20"
         },
         {
-            "id_tache": 9,
-            "id_agent": "22"
-        },
-        {
-            "id_tache": 9,
-            "id_agent": "7"
-        },
-        {
-            "id_tache": 7,
-            "id_agent": "74"
-        },
-        {
-            "id_tache": 7,
+            "id_tache": 1214,
             "id_agent": "19"
         },
         {
-            "id_tache": 7,
+            "id_tache": 1214,
             "id_agent": "5"
         },
         {
-            "id_tache": 7,
-            "id_agent": "20"
+            "id_tache": 1521,
+            "id_agent": "68"
         },
         {
-            "id_tache": 7,
+            "id_tache": 1521,
+            "id_agent": "25"
+        },
+        {
+            "id_tache": 1521,
+            "id_agent": "61"
+        },
+        {
+            "id_tache": 1521,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 1953,
+            "id_agent": "12"
+        },
+        {
+            "id_tache": 1734,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1973,
+            "id_agent": "61"
+        },
+        {
+            "id_tache": 1973,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 1970,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1970,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1971,
+            "id_agent": "30"
+        },
+        {
+            "id_tache": 1971,
+            "id_agent": "31"
+        },
+        {
+            "id_tache": 1975,
+            "id_agent": "44"
+        },
+        {
+            "id_tache": 1975,
+            "id_agent": "61"
+        },
+        {
+            "id_tache": 1975,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 1977,
+            "id_agent": "4"
+        },
+        {
+            "id_tache": 1977,
+            "id_agent": "55"
+        },
+        {
+            "id_tache": 1722,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1978,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1978,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1979,
+            "id_agent": "11"
+        },
+        {
+            "id_tache": 1979,
+            "id_agent": "27"
+        },
+        {
+            "id_tache": 1980,
+            "id_agent": "25"
+        },
+        {
+            "id_tache": 1980,
+            "id_agent": "11"
+        },
+        {
+            "id_tache": 1981,
+            "id_agent": "4"
+        },
+        {
+            "id_tache": 1955,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 1683,
+            "id_agent": "25"
+        },
+        {
+            "id_tache": 1683,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 1720,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1221,
+            "id_agent": "5"
+        },
+        {
+            "id_tache": 1221,
             "id_agent": "22"
         },
         {
-            "id_tache": 7,
-            "id_agent": "7"
+            "id_tache": 1992,
+            "id_agent": "22"
         },
         {
-            "id_tache": 11,
-            "id_agent": "5"
+            "id_tache": 1613,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1613,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1993,
+            "id_agent": "55"
+        },
+        {
+            "id_tache": 1994,
+            "id_agent": "55"
+        },
+        {
+            "id_tache": 1999,
+            "id_agent": "12"
+        },
+        {
+            "id_tache": 1988,
+            "id_agent": "12"
+        },
+        {
+            "id_tache": 1988,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1988,
+            "id_agent": "75"
+        },
+        {
+            "id_tache": 1719,
+            "id_agent": "30"
+        },
+        {
+            "id_tache": 1720,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1734,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 2001,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 2002,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 2006,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1722,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 2007,
+            "id_agent": "12"
+        },
+        {
+            "id_tache": 2006,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1984,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1984,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 2009,
+            "id_agent": "75"
         }
     ]
 }
