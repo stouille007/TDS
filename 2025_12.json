@@ -1,361 +1,373 @@
 {
+    "informations": [
+        {
+            "derniere_modification": "2025-11-14 18:44:23"
+        }
+    ],
     "agents": [
         {
             "id": 66,
             "firstname": "Xavier",
             "lastname": "Arnollet",
             "id_subdivision": "5",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 68,
             "firstname": "David",
             "lastname": "Bellemin-noel",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 23,
             "firstname": "Nabil",
             "lastname": "Bourouaha",
             "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 18,
             "firstname": "Mokhtar",
             "lastname": "Brahimi",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 54,
             "firstname": "Bernard",
             "lastname": "Chabre",
             "id_subdivision": "14",
-            "id_pole": ""
+            "id_pole": 0
         },
         {
             "id": 38,
             "firstname": "Sylvie",
             "lastname": "Collomb",
             "id_subdivision": "8",
-            "id_pole": "4"
+            "id_pole": 0
         },
         {
             "id": 44,
             "firstname": "Jean François",
             "lastname": "Corlosquet",
             "id_subdivision": "6",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 70,
             "firstname": "Gaétan",
             "lastname": "CÔte",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 50,
             "firstname": "Philippe",
             "lastname": "Dachaux",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 8,
             "firstname": "Richard",
             "lastname": "Di donna",
             "id_subdivision": "7",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 74,
             "firstname": "Sami",
             "lastname": "Djaffar",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 39,
             "firstname": "Carlos",
             "lastname": "Dos santos",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 40,
             "firstname": "Julien",
             "lastname": "Ducroux",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 65,
             "firstname": "Fabien",
             "lastname": "Duret",
             "id_subdivision": "10",
-            "id_pole": "3"
-        },
-        {
-            "id": 72,
-            "firstname": "Gael",
-            "lastname": "Duvert",
-            "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 45,
             "firstname": "Laurent",
             "lastname": "Duvert",
             "id_subdivision": "11",
-            "id_pole": "3"
+            "id_pole": 0
+        },
+        {
+            "id": 72,
+            "firstname": "Gael",
+            "lastname": "Duvert",
+            "id_subdivision": "1",
+            "id_pole": 0
         },
         {
             "id": 69,
             "firstname": "Marina",
             "lastname": "Edom",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 12,
             "firstname": "Gilles",
             "lastname": "Farrugia",
             "id_subdivision": "6",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 47,
             "firstname": "Olivier",
             "lastname": "Ferrieres",
             "id_subdivision": "7",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 15,
             "firstname": "Simon",
             "lastname": "Fossat",
             "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 25,
             "firstname": "Carmine",
             "lastname": "Gammella",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 52,
             "firstname": "François",
             "lastname": "Gardet",
             "id_subdivision": "7",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 33,
             "firstname": "Yvon",
             "lastname": "Gelebart",
             "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 53,
             "firstname": "Guy",
             "lastname": "Genovese",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 71,
             "firstname": "Clément",
             "lastname": "Groisil",
             "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 29,
             "firstname": "Romain",
             "lastname": "Jacob",
             "id_subdivision": "5",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 32,
             "firstname": "Hervé",
             "lastname": "Jalmin",
             "id_subdivision": "7",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 41,
             "firstname": "Pierre",
             "lastname": "Julien",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 34,
             "firstname": "Laurent",
             "lastname": "Krumenacker",
             "id_subdivision": "10",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 48,
             "firstname": "Patrice",
             "lastname": "Lucchetti",
             "id_subdivision": "6",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 19,
             "firstname": "Thomas",
             "lastname": "Million",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 61,
             "firstname": "Nicolas",
             "lastname": "Moksia",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 6,
             "firstname": "Cyrille",
             "lastname": "Paillard",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 4,
             "firstname": "Guillaume",
             "lastname": "Palliet",
             "id_subdivision": "11",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 5,
             "firstname": "Christophe",
             "lastname": "Paste",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 20,
             "firstname": "Christophe",
             "lastname": "Petit",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 21,
             "firstname": "Antoine",
             "lastname": "Poulet",
             "id_subdivision": "8",
-            "id_pole": "4"
+            "id_pole": 0
         },
         {
             "id": 55,
             "firstname": "Olivier",
             "lastname": "Prevost",
             "id_subdivision": "9",
-            "id_pole": "5"
+            "id_pole": 0
         },
         {
             "id": 36,
             "firstname": "Luc",
             "lastname": "Protiere",
             "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 60,
             "firstname": "Hervé",
             "lastname": "Riou",
             "id_subdivision": "6",
-            "id_pole": "3"
+            "id_pole": 0
         },
         {
             "id": 11,
             "firstname": "Jacques",
             "lastname": "Roinat",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
+        },
+        {
+            "id": 75,
+            "firstname": "Abdoul",
+            "lastname": "Sall",
+            "id_subdivision": "5",
+            "id_pole": 0
         },
         {
             "id": 22,
             "firstname": "Alain",
             "lastname": "Samson",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 14,
             "firstname": "Emmanuel",
             "lastname": "Schuch",
             "id_subdivision": "1",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 16,
             "firstname": "Alexis",
             "lastname": "Simon",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 30,
             "firstname": "Mathis",
             "lastname": "Teixeira",
             "id_subdivision": "5",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 31,
             "firstname": "Timothée",
             "lastname": "Teixeira",
             "id_subdivision": "5",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 27,
             "firstname": "Eric",
             "lastname": "Thivent",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 7,
             "firstname": "Pierre",
             "lastname": "Valentin",
             "id_subdivision": "3",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 58,
             "firstname": "Ivanhoé",
             "lastname": "Vigne",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         },
         {
             "id": 73,
             "firstname": "Hugo",
             "lastname": "Vinh",
             "id_subdivision": "2",
-            "id_pole": "1"
+            "id_pole": 0
         },
         {
             "id": 10,
             "firstname": "Gregory",
             "lastname": "Zinetti",
             "id_subdivision": "4",
-            "id_pole": "2"
+            "id_pole": 0
         }
     ],
     "calendrier": [
@@ -769,11 +781,11 @@
         {
             "id": 16192,
             "id_agent": "11",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -868,11 +880,11 @@
         {
             "id": 16218,
             "id_agent": "58",
-            "jour": "J",
+            "jour": "R",
             "debut": "2025-12-08",
             "fin": "2025-12-08",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "c1ffbd",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1022,11 +1034,11 @@
         {
             "id": 16232,
             "id_agent": "58",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1251,13 +1263,24 @@
             "duree": "1"
         },
         {
+            "id": 17780,
+            "id_agent": "19",
+            "jour": "PCA",
+            "debut": "2025-12-11",
+            "fin": "2025-12-11",
+            "background": "c1ffbd",
+            "color": "3f9972",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 17781,
             "id_agent": "19",
-            "jour": "J",
+            "jour": "PARTT",
             "debut": "2025-12-12",
             "fin": "2025-12-12",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "c1ffbd",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1363,11 +1386,11 @@
         {
             "id": 17815,
             "id_agent": "5",
-            "jour": "J",
+            "jour": "TT",
             "debut": "2025-12-04",
             "fin": "2025-12-04",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "003bde",
+            "color": "ffffff",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1399,28 +1422,6 @@
             "jour": "J",
             "debut": "2025-12-09",
             "fin": "2025-12-09",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17819,
-            "id_agent": "5",
-            "jour": "J",
-            "debut": "2025-12-10",
-            "fin": "2025-12-10",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17820,
-            "id_agent": "5",
-            "jour": "J",
-            "debut": "2025-12-11",
-            "fin": "2025-12-11",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -1473,11 +1474,11 @@
         {
             "id": 17825,
             "id_agent": "5",
-            "jour": "J",
+            "jour": "TT",
             "debut": "2025-12-18",
             "fin": "2025-12-18",
-            "background": "ffffff",
-            "color": "000000",
+            "background": "003bde",
+            "color": "ffffff",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1533,17 +1534,6 @@
             "fin": "2025-12-25",
             "background": "f7ffd0",
             "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17831,
-            "id_agent": "5",
-            "jour": "J",
-            "debut": "2025-12-26",
-            "fin": "2025-12-26",
-            "background": "ffffff",
-            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -1730,61 +1720,6 @@
             "debut": "2025-12-19",
             "fin": "2025-12-19",
             "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17867,
-            "id_agent": "22",
-            "jour": "J",
-            "debut": "2025-12-22",
-            "fin": "2025-12-22",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17868,
-            "id_agent": "22",
-            "jour": "R",
-            "debut": "2025-12-23",
-            "fin": "2025-12-23",
-            "background": "c1ffbd",
-            "color": "0f0404",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17869,
-            "id_agent": "22",
-            "jour": "W",
-            "debut": "2025-12-24",
-            "fin": "2025-12-24",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17870,
-            "id_agent": "22",
-            "jour": "OFF",
-            "debut": "2025-12-25",
-            "fin": "2025-12-25",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 17871,
-            "id_agent": "22",
-            "jour": "W",
-            "debut": "2025-12-26",
-            "fin": "2025-12-26",
-            "background": "c7f8ff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
@@ -2705,11 +2640,11 @@
         {
             "id": 19693,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-01",
             "fin": "2025-12-01",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -2782,11 +2717,11 @@
         {
             "id": 19703,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-15",
             "fin": "2025-12-15",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -2837,11 +2772,11 @@
         {
             "id": 19711,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -3629,7 +3564,7 @@
         {
             "id": 23893,
             "id_agent": "20",
-            "jour": "PARTT",
+            "jour": "ARTT",
             "debut": "2025-12-22",
             "fin": "2025-12-24",
             "background": "c1ffbd",
@@ -3706,12 +3641,12 @@
         {
             "id": 24280,
             "id_agent": "68",
-            "jour": "W",
+            "jour": "OFF",
             "debut": "2025-12-03",
             "fin": "2025-12-03",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "M",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -3750,12 +3685,12 @@
         {
             "id": 24284,
             "id_agent": "68",
-            "jour": "W",
+            "jour": "OFF",
             "debut": "2025-12-16",
             "fin": "2025-12-16",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "M",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -3827,22 +3762,22 @@
         {
             "id": 24895,
             "id_agent": "48",
-            "jour": "TT",
+            "jour": "PCA",
             "debut": "2025-12-24",
             "fin": "2025-12-24",
-            "background": "003bde",
-            "color": "ffffff",
+            "background": "c1ffbd",
+            "color": "3f9972",
             "coloriage": 0,
             "duree": "1"
         },
         {
             "id": 24896,
             "id_agent": "48",
-            "jour": "TT",
+            "jour": "PCA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
-            "background": "003bde",
-            "color": "ffffff",
+            "background": "c1ffbd",
+            "color": "3f9972",
             "coloriage": 0,
             "duree": "1"
         },
@@ -4020,17 +3955,6 @@
             "background": "c1ffbd",
             "color": "0f0404",
             "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 25048,
-            "id_agent": "19",
-            "jour": "W",
-            "debut": "2025-12-25",
-            "fin": "2025-12-25",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -4267,7 +4191,7 @@
         {
             "id": 26001,
             "id_agent": "45",
-            "jour": "TT \/ OFF",
+            "jour": "TT \/ RTT",
             "debut": "2025-12-19",
             "fin": "2025-12-19",
             "background": "FFFFFF",
@@ -4674,22 +4598,22 @@
         {
             "id": 26839,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-23",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "2"
         },
         {
             "id": 26840,
             "id_agent": "29",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-09",
             "fin": "2025-12-10",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "2"
         },
@@ -4932,7 +4856,7 @@
             "fin": "2025-12-08",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "S",
+            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -4965,7 +4889,7 @@
             "fin": "2025-12-14",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "S",
+            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -5037,11 +4961,11 @@
         {
             "id": 27193,
             "id_agent": "10",
-            "jour": "W",
+            "jour": "OFF",
             "debut": "2025-12-18",
             "fin": "2025-12-18",
-            "background": "c7f8ff",
-            "color": "000000",
+            "background": "f7ffd0",
+            "color": "f98d8d",
             "coloriage": 0,
             "duree": "1"
         },
@@ -5065,17 +4989,6 @@
             "background": "c7f8ff",
             "color": "000000",
             "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 27198,
-            "id_agent": "61",
-            "jour": "W",
-            "debut": "2025-12-25",
-            "fin": "2025-12-25",
-            "background": "c7f8ff",
-            "color": "000000",
-            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -5216,17 +5129,6 @@
             "jour": "J",
             "debut": "2025-12-22",
             "fin": "2025-12-22",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 27214,
-            "id_agent": "69",
-            "jour": "J",
-            "debut": "2025-12-23",
-            "fin": "2025-12-23",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -5464,17 +5366,6 @@
             "duree": "1"
         },
         {
-            "id": 34493,
-            "id_agent": "25",
-            "jour": "PCA",
-            "debut": "2025-12-15",
-            "fin": "2025-12-18",
-            "background": "c1ffbd",
-            "color": "3f9972",
-            "coloriage": 0,
-            "duree": "4"
-        },
-        {
             "id": 34513,
             "id_agent": "8",
             "jour": "B",
@@ -5664,11 +5555,11 @@
         {
             "id": 34575,
             "id_agent": "38",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-01",
             "fin": "2025-12-02",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "2"
         },
@@ -6214,11 +6105,11 @@
         {
             "id": 35246,
             "id_agent": "74",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -6432,17 +6323,6 @@
             "duree": "1"
         },
         {
-            "id": 35307,
-            "id_agent": "74",
-            "jour": "PCA",
-            "debut": "2025-12-22",
-            "fin": "2025-12-24",
-            "background": "c1ffbd",
-            "color": "3f9972",
-            "coloriage": 0,
-            "duree": "3"
-        },
-        {
             "id": 35350,
             "id_agent": "69",
             "jour": "W",
@@ -6474,17 +6354,6 @@
             "color": "f98d8d",
             "coloriage": 0,
             "duree": "1"
-        },
-        {
-            "id": 35491,
-            "id_agent": "74",
-            "jour": "STE",
-            "debut": "2025-12-01",
-            "fin": "2025-12-05",
-            "background": "d67ed9",
-            "color": "fffafa",
-            "coloriage": 0,
-            "duree": "5"
         },
         {
             "id": 35492,
@@ -6654,11 +6523,11 @@
         {
             "id": 35624,
             "id_agent": "38",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-24",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -6714,7 +6583,7 @@
             "fin": "2025-12-05",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "M",
+            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -6806,17 +6675,6 @@
             "duree": "1"
         },
         {
-            "id": 35646,
-            "id_agent": "23",
-            "jour": "PCA",
-            "debut": "2025-12-18",
-            "fin": "2025-12-18",
-            "background": "c1ffbd",
-            "color": "3f9972",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35647,
             "id_agent": "23",
             "jour": "OFF",
@@ -6868,61 +6726,6 @@
             "fin": "2025-12-26",
             "background": "ffffff",
             "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35652,
-            "id_agent": "72",
-            "jour": "J",
-            "debut": "2025-12-01",
-            "fin": "2025-12-01",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35653,
-            "id_agent": "72",
-            "jour": "J",
-            "debut": "2025-12-02",
-            "fin": "2025-12-02",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35654,
-            "id_agent": "72",
-            "jour": "J",
-            "debut": "2025-12-03",
-            "fin": "2025-12-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35655,
-            "id_agent": "72",
-            "jour": "J",
-            "debut": "2025-12-04",
-            "fin": "2025-12-04",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35657,
-            "id_agent": "72",
-            "jour": "OFF",
-            "debut": "2025-12-05",
-            "fin": "2025-12-05",
-            "background": "f7ffd0",
-            "color": "f98d8d",
             "coloriage": 0,
             "duree": "1"
         },
@@ -7000,7 +6803,7 @@
             "fin": "2025-12-16",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "M",
+            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -7114,17 +6917,6 @@
             "duree": "1"
         },
         {
-            "id": 35680,
-            "id_agent": "15",
-            "jour": "J",
-            "debut": "2025-12-10",
-            "fin": "2025-12-10",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35681,
             "id_agent": "15",
             "jour": "J",
@@ -7147,24 +6939,13 @@
             "duree": "1"
         },
         {
-            "id": 35683,
-            "id_agent": "15",
-            "jour": "OFF",
-            "debut": "2025-12-08",
-            "fin": "2025-12-08",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35684,
             "id_agent": "15",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-09",
             "fin": "2025-12-09",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -7204,11 +6985,11 @@
         {
             "id": 35690,
             "id_agent": "15",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-16",
             "fin": "2025-12-16",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -7253,7 +7034,7 @@
             "fin": "2025-12-27",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": 0,
+            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -7308,7 +7089,7 @@
             "fin": "2025-12-07",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": 0,
+            "coloriage": "M",
             "duree": "1"
         },
         {
@@ -7330,7 +7111,7 @@
             "fin": "2025-12-11",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "S",
+            "coloriage": "M",
             "duree": "1"
         },
         {
@@ -7374,7 +7155,7 @@
             "fin": "2025-12-13",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": 0,
+            "coloriage": "S",
             "duree": "1"
         },
         {
@@ -7419,215 +7200,6 @@
             "background": "c7f8ff",
             "color": "000000",
             "coloriage": "M",
-            "duree": "1"
-        },
-        {
-            "id": 35720,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-01",
-            "fin": "2025-12-01",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35721,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-02",
-            "fin": "2025-12-02",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35722,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-03",
-            "fin": "2025-12-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35723,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-04",
-            "fin": "2025-12-04",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35725,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-08",
-            "fin": "2025-12-08",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35726,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-09",
-            "fin": "2025-12-09",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35727,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-10",
-            "fin": "2025-12-10",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35728,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-11",
-            "fin": "2025-12-11",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35730,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-15",
-            "fin": "2025-12-15",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35731,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-16",
-            "fin": "2025-12-16",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35732,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-17",
-            "fin": "2025-12-17",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35733,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-18",
-            "fin": "2025-12-18",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35735,
-            "id_agent": "71",
-            "jour": "OFF",
-            "debut": "2025-12-19",
-            "fin": "2025-12-19",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35736,
-            "id_agent": "71",
-            "jour": "OFF",
-            "debut": "2025-12-12",
-            "fin": "2025-12-12",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35737,
-            "id_agent": "71",
-            "jour": "OFF",
-            "debut": "2025-12-05",
-            "fin": "2025-12-05",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35738,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-22",
-            "fin": "2025-12-22",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35739,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-23",
-            "fin": "2025-12-23",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35740,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-24",
-            "fin": "2025-12-24",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35741,
-            "id_agent": "71",
-            "jour": "J",
-            "debut": "2025-12-26",
-            "fin": "2025-12-26",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -7688,22 +7260,22 @@
         {
             "id": 35753,
             "id_agent": "33",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-22",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
         {
             "id": 35754,
             "id_agent": "33",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -7941,24 +7513,13 @@
         {
             "id": 35785,
             "id_agent": "14",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-22",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
-            "coloriage": 0,
-            "duree": "3"
-        },
-        {
-            "id": 35787,
-            "id_agent": "14",
-            "jour": "ARTT",
-            "debut": "2025-12-26",
-            "fin": "2025-12-26",
-            "background": "c1ffbd",
             "color": "0f0404",
             "coloriage": 0,
-            "duree": "1"
+            "duree": "3"
         },
         {
             "id": 35788,
@@ -8001,7 +7562,7 @@
             "fin": "2025-12-05",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "M",
+            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -8045,17 +7606,6 @@
             "fin": "2025-12-11",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "S",
-            "duree": "1"
-        },
-        {
-            "id": 35798,
-            "id_agent": "70",
-            "jour": "W",
-            "debut": "2025-12-12",
-            "fin": "2025-12-12",
-            "background": "c7f8ff",
-            "color": "000000",
             "coloriage": 0,
             "duree": "1"
         },
@@ -8078,7 +7628,7 @@
             "fin": "2025-12-16",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": "M",
+            "coloriage": 0,
             "duree": "1"
         },
         {
@@ -8095,33 +7645,33 @@
         {
             "id": 35802,
             "id_agent": "70",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-18",
             "fin": "2025-12-18",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
         {
             "id": 35807,
             "id_agent": "70",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-22",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
         {
             "id": 35808,
             "id_agent": "70",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -8148,28 +7698,6 @@
             "duree": "1"
         },
         {
-            "id": 35811,
-            "id_agent": "50",
-            "jour": "J",
-            "debut": "2025-12-03",
-            "fin": "2025-12-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35812,
-            "id_agent": "50",
-            "jour": "J",
-            "debut": "2025-12-04",
-            "fin": "2025-12-04",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35814,
             "id_agent": "39",
             "jour": "J",
@@ -8186,28 +7714,6 @@
             "jour": "J",
             "debut": "2025-12-02",
             "fin": "2025-12-02",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35816,
-            "id_agent": "39",
-            "jour": "J",
-            "debut": "2025-12-03",
-            "fin": "2025-12-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35817,
-            "id_agent": "39",
-            "jour": "J",
-            "debut": "2025-12-04",
-            "fin": "2025-12-04",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -8447,11 +7953,11 @@
         {
             "id": 35847,
             "id_agent": "40",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-03",
             "fin": "2025-12-04",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "2"
         },
@@ -8623,22 +8129,22 @@
         {
             "id": 35871,
             "id_agent": "50",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-22",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
         {
             "id": 35872,
             "id_agent": "50",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -8683,39 +8189,6 @@
             "fin": "2025-12-09",
             "background": "c7f8ff",
             "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35883,
-            "id_agent": "41",
-            "jour": "J",
-            "debut": "2025-12-10",
-            "fin": "2025-12-10",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35884,
-            "id_agent": "41",
-            "jour": "J",
-            "debut": "2025-12-12",
-            "fin": "2025-12-12",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35886,
-            "id_agent": "41",
-            "jour": "PCA",
-            "debut": "2025-12-19",
-            "fin": "2025-12-19",
-            "background": "c1ffbd",
-            "color": "3f9972",
             "coloriage": 0,
             "duree": "1"
         },
@@ -8863,28 +8336,6 @@
             "duree": "1"
         },
         {
-            "id": 35901,
-            "id_agent": "73",
-            "jour": "B",
-            "debut": "2025-12-04",
-            "fin": "2025-12-04",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35903,
-            "id_agent": "73",
-            "jour": "OFF",
-            "debut": "2025-12-05",
-            "fin": "2025-12-05",
-            "background": "f7ffd0",
-            "color": "f98d8d",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35905,
             "id_agent": "73",
             "jour": "B",
@@ -8995,50 +8446,6 @@
             "duree": "1"
         },
         {
-            "id": 35916,
-            "id_agent": "73",
-            "jour": "B",
-            "debut": "2025-12-22",
-            "fin": "2025-12-22",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35918,
-            "id_agent": "73",
-            "jour": "B",
-            "debut": "2025-12-23",
-            "fin": "2025-12-23",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35919,
-            "id_agent": "73",
-            "jour": "B",
-            "debut": "2025-12-24",
-            "fin": "2025-12-24",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35920,
-            "id_agent": "73",
-            "jour": "B",
-            "debut": "2025-12-26",
-            "fin": "2025-12-26",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35921,
             "id_agent": "16",
             "jour": "J",
@@ -9066,17 +8473,6 @@
             "jour": "J",
             "debut": "2025-12-11",
             "fin": "2025-12-11",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35925,
-            "id_agent": "16",
-            "jour": "J",
-            "debut": "2025-12-12",
-            "fin": "2025-12-12",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
@@ -9116,35 +8512,24 @@
             "duree": "1"
         },
         {
-            "id": 35930,
-            "id_agent": "16",
-            "jour": "J",
-            "debut": "2025-12-19",
-            "fin": "2025-12-19",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35935,
             "id_agent": "16",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-22",
             "fin": "2025-12-24",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
         {
             "id": 35936,
             "id_agent": "16",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -9182,50 +8567,6 @@
             "duree": "2"
         },
         {
-            "id": 35941,
-            "id_agent": "52",
-            "jour": "B",
-            "debut": "2025-12-01",
-            "fin": "2025-12-01",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35942,
-            "id_agent": "52",
-            "jour": "B",
-            "debut": "2025-12-02",
-            "fin": "2025-12-02",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35943,
-            "id_agent": "52",
-            "jour": "B",
-            "debut": "2025-12-03",
-            "fin": "2025-12-03",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35946,
-            "id_agent": "52",
-            "jour": "TT",
-            "debut": "2025-12-04",
-            "fin": "2025-12-04",
-            "background": "003bde",
-            "color": "ffffff",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35948,
             "id_agent": "52",
             "jour": "B",
@@ -9248,17 +8589,6 @@
             "duree": "1"
         },
         {
-            "id": 35952,
-            "id_agent": "52",
-            "jour": "B",
-            "debut": "2025-12-12",
-            "fin": "2025-12-12",
-            "background": "ffffff",
-            "color": "000000",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
             "id": 35953,
             "id_agent": "52",
             "jour": "TT",
@@ -9270,35 +8600,13 @@
             "duree": "1"
         },
         {
-            "id": 35954,
-            "id_agent": "52",
-            "jour": "TT",
-            "debut": "2025-12-11",
-            "fin": "2025-12-11",
-            "background": "003bde",
-            "color": "ffffff",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35959,
-            "id_agent": "52",
-            "jour": "PCA",
-            "debut": "2025-12-22",
-            "fin": "2025-12-24",
-            "background": "c1ffbd",
-            "color": "3f9972",
-            "coloriage": 0,
-            "duree": "3"
-        },
-        {
             "id": 35960,
             "id_agent": "52",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-26",
             "fin": "2025-12-26",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -9343,17 +8651,6 @@
             "fin": "2025-12-18",
             "background": "003bde",
             "color": "ffffff",
-            "coloriage": 0,
-            "duree": "1"
-        },
-        {
-            "id": 35969,
-            "id_agent": "52",
-            "jour": "RTT",
-            "debut": "2025-12-05",
-            "fin": "2025-12-05",
-            "background": "c1ffbd",
-            "color": "0f0404",
             "coloriage": 0,
             "duree": "1"
         },
@@ -9426,24 +8723,1425 @@
         {
             "id": 36103,
             "id_agent": "22",
-            "jour": "PCA",
+            "jour": "CA",
             "debut": "2025-12-08",
             "fin": "2025-12-10",
             "background": "c1ffbd",
-            "color": "3f9972",
+            "color": "0f0404",
             "coloriage": 0,
             "duree": "3"
         },
         {
+            "id": 36140,
+            "id_agent": "34",
+            "jour": "B",
+            "debut": "2025-12-22",
+            "fin": "2025-12-22",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
             "id": 36141,
-            "id_agent": "19",
-            "jour": "J",
+            "id_agent": "34",
+            "jour": "B",
+            "debut": "2025-12-23",
+            "fin": "2025-12-23",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36142,
+            "id_agent": "34",
+            "jour": "TT \/ RTT",
+            "debut": "2025-12-24",
+            "fin": "2025-12-24",
+            "background": "FFFFFF",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36143,
+            "id_agent": "34",
+            "jour": "TT",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "003bde",
+            "color": "ffffff",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36147,
+            "id_agent": "22",
+            "jour": "W",
+            "debut": "2025-12-24",
+            "fin": "2025-12-24",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36148,
+            "id_agent": "22",
+            "jour": "W",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36149,
+            "id_agent": "22",
+            "jour": "CA",
+            "debut": "2025-12-22",
+            "fin": "2025-12-22",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36156,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-01",
+            "fin": "2025-12-01",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36157,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-02",
+            "fin": "2025-12-02",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36158,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-03",
+            "fin": "2025-12-03",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36159,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-04",
+            "fin": "2025-12-04",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36160,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-05",
+            "fin": "2025-12-05",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36161,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-08",
+            "fin": "2025-12-08",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36162,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-09",
+            "fin": "2025-12-09",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36163,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-10",
+            "fin": "2025-12-10",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36164,
+            "id_agent": "54",
+            "jour": "B",
             "debut": "2025-12-11",
             "fin": "2025-12-11",
             "background": "ffffff",
             "color": "000000",
             "coloriage": 0,
             "duree": "1"
+        },
+        {
+            "id": 36166,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-15",
+            "fin": "2025-12-15",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36167,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-16",
+            "fin": "2025-12-16",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36168,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-17",
+            "fin": "2025-12-17",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36169,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-18",
+            "fin": "2025-12-18",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36170,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-19",
+            "fin": "2025-12-19",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36171,
+            "id_agent": "54",
+            "jour": "RTT",
+            "debut": "2025-12-12",
+            "fin": "2025-12-12",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36173,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-23",
+            "fin": "2025-12-23",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36174,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-24",
+            "fin": "2025-12-24",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36175,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36204,
+            "id_agent": "54",
+            "jour": "B",
+            "debut": "2025-12-22",
+            "fin": "2025-12-22",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36213,
+            "id_agent": "72",
+            "jour": "CA",
+            "debut": "2025-12-01",
+            "fin": "2025-12-04",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "4"
+        },
+        {
+            "id": 36214,
+            "id_agent": "72",
+            "jour": "OFF",
+            "debut": "2025-12-05",
+            "fin": "2025-12-05",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36215,
+            "id_agent": "14",
+            "jour": "CA",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36216,
+            "id_agent": "73",
+            "jour": "ARTT",
+            "debut": "2025-12-22",
+            "fin": "2025-12-22",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36219,
+            "id_agent": "73",
+            "jour": "CA",
+            "debut": "2025-12-23",
+            "fin": "2025-12-24",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "2"
+        },
+        {
+            "id": 36220,
+            "id_agent": "73",
+            "jour": "CA",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36573,
+            "id_agent": "41",
+            "jour": "J",
+            "debut": "2025-12-19",
+            "fin": "2025-12-19",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36574,
+            "id_agent": "41",
+            "jour": "CA",
+            "debut": "2025-12-10",
+            "fin": "2025-12-10",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36575,
+            "id_agent": "41",
+            "jour": "CA",
+            "debut": "2025-12-12",
+            "fin": "2025-12-12",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36590,
+            "id_agent": "41",
+            "jour": "CA",
+            "debut": "2025-12-18",
+            "fin": "2025-12-18",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36596,
+            "id_agent": "69",
+            "jour": "W",
+            "debut": "2025-12-23",
+            "fin": "2025-12-23",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36628,
+            "id_agent": "68",
+            "jour": "OFF",
+            "debut": "2025-12-19",
+            "fin": "2025-12-19",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36629,
+            "id_agent": "68",
+            "jour": "W",
+            "debut": "2025-12-18",
+            "fin": "2025-12-18",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36631,
+            "id_agent": "10",
+            "jour": "W",
+            "debut": "2025-12-16",
+            "fin": "2025-12-16",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "M",
+            "duree": "1"
+        },
+        {
+            "id": 36645,
+            "id_agent": "23",
+            "jour": "J",
+            "debut": "2025-12-18",
+            "fin": "2025-12-18",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36679,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-01",
+            "fin": "2025-12-01",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36680,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-02",
+            "fin": "2025-12-02",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36681,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-03",
+            "fin": "2025-12-03",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36682,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-04",
+            "fin": "2025-12-04",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36683,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-05",
+            "fin": "2025-12-05",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36684,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-08",
+            "fin": "2025-12-08",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36685,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-09",
+            "fin": "2025-12-09",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36686,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-10",
+            "fin": "2025-12-10",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36687,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-11",
+            "fin": "2025-12-11",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36689,
+            "id_agent": "75",
+            "jour": "RTT",
+            "debut": "2025-12-12",
+            "fin": "2025-12-12",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36690,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-15",
+            "fin": "2025-12-15",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36691,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-16",
+            "fin": "2025-12-16",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36692,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-17",
+            "fin": "2025-12-17",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36693,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-18",
+            "fin": "2025-12-18",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36694,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-19",
+            "fin": "2025-12-19",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36695,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-22",
+            "fin": "2025-12-22",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36696,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-23",
+            "fin": "2025-12-23",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36697,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-24",
+            "fin": "2025-12-24",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36698,
+            "id_agent": "75",
+            "jour": "B",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36710,
+            "id_agent": "5",
+            "jour": "J",
+            "debut": "2025-12-26",
+            "fin": "2025-12-26",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36772,
+            "id_agent": "15",
+            "jour": "OFF",
+            "debut": "2025-12-10",
+            "fin": "2025-12-10",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36773,
+            "id_agent": "15",
+            "jour": "J",
+            "debut": "2025-12-08",
+            "fin": "2025-12-08",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36774,
+            "id_agent": "70",
+            "jour": "J",
+            "debut": "2025-12-09",
+            "fin": "2025-12-09",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36775,
+            "id_agent": "16",
+            "jour": "W",
+            "debut": "2025-12-12",
+            "fin": "2025-12-12",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36777,
+            "id_agent": "16",
+            "jour": "CA",
+            "debut": "2025-12-19",
+            "fin": "2025-12-19",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36778,
+            "id_agent": "52",
+            "jour": "B",
+            "debut": "2025-12-11",
+            "fin": "2025-12-11",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36779,
+            "id_agent": "52",
+            "jour": "TT",
+            "debut": "2025-12-12",
+            "fin": "2025-12-12",
+            "background": "003bde",
+            "color": "ffffff",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36787,
+            "id_agent": "52",
+            "jour": "B",
+            "debut": "2025-12-02",
+            "fin": "2025-12-02",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36788,
+            "id_agent": "52",
+            "jour": "TT",
+            "debut": "2025-12-03",
+            "fin": "2025-12-03",
+            "background": "003bde",
+            "color": "ffffff",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36789,
+            "id_agent": "52",
+            "jour": "B",
+            "debut": "2025-12-04",
+            "fin": "2025-12-04",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36790,
+            "id_agent": "52",
+            "jour": "RTT",
+            "debut": "2025-12-05",
+            "fin": "2025-12-05",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36793,
+            "id_agent": "52",
+            "jour": "TT",
+            "debut": "2025-12-22",
+            "fin": "2025-12-22",
+            "background": "003bde",
+            "color": "ffffff",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36794,
+            "id_agent": "52",
+            "jour": "B",
+            "debut": "2025-12-23",
+            "fin": "2025-12-23",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36795,
+            "id_agent": "52",
+            "jour": "B",
+            "debut": "2025-12-24",
+            "fin": "2025-12-24",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36797,
+            "id_agent": "52",
+            "jour": "TT \/ ARTT",
+            "debut": "2025-12-01",
+            "fin": "2025-12-01",
+            "background": "FFFFFF",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36798,
+            "id_agent": "73",
+            "jour": "OFF",
+            "debut": "2025-12-04",
+            "fin": "2025-12-04",
+            "background": "f7ffd0",
+            "color": "f98d8d",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36799,
+            "id_agent": "73",
+            "jour": "B",
+            "debut": "2025-12-05",
+            "fin": "2025-12-05",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36806,
+            "id_agent": "19",
+            "jour": "W",
+            "debut": "2025-12-25",
+            "fin": "2025-12-25",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "S",
+            "duree": "1"
+        },
+        {
+            "id": 36807,
+            "id_agent": "61",
+            "jour": "W",
+            "debut": "2025-12-25",
+            "fin": "2025-12-25",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "S",
+            "duree": "1"
+        },
+        {
+            "id": 36810,
+            "id_agent": "39",
+            "jour": "W",
+            "debut": "2025-12-04",
+            "fin": "2025-12-04",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36812,
+            "id_agent": "50",
+            "jour": "J",
+            "debut": "2025-12-04",
+            "fin": "2025-12-04",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36817,
+            "id_agent": "25",
+            "jour": "PCA",
+            "debut": "2025-12-15",
+            "fin": "2025-12-16",
+            "background": "c1ffbd",
+            "color": "3f9972",
+            "coloriage": 0,
+            "duree": "2"
+        },
+        {
+            "id": 36825,
+            "id_agent": "74",
+            "jour": "STE",
+            "debut": "2025-12-01",
+            "fin": "2025-12-04",
+            "background": "d67ed9",
+            "color": "fffafa",
+            "coloriage": 0,
+            "duree": "4"
+        },
+        {
+            "id": 36826,
+            "id_agent": "74",
+            "jour": "CA",
+            "debut": "2025-12-05",
+            "fin": "2025-12-05",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36833,
+            "id_agent": "74",
+            "jour": "ARTT",
+            "debut": "2025-12-22",
+            "fin": "2025-12-24",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "3"
+        },
+        {
+            "id": 36844,
+            "id_agent": "50",
+            "jour": "W",
+            "debut": "2025-12-03",
+            "fin": "2025-12-03",
+            "background": "c7f8ff",
+            "color": "000000",
+            "coloriage": "M",
+            "duree": "1"
+        },
+        {
+            "id": 36845,
+            "id_agent": "39",
+            "jour": "J",
+            "debut": "2025-12-03",
+            "fin": "2025-12-03",
+            "background": "ffffff",
+            "color": "000000",
+            "coloriage": 0,
+            "duree": "1"
+        },
+        {
+            "id": 36848,
+            "id_agent": "5",
+            "jour": "PARTT",
+            "debut": "2025-12-10",
+            "fin": "2025-12-11",
+            "background": "c1ffbd",
+            "color": "0f0404",
+            "coloriage": 0,
+            "duree": "2"
+        }
+    ],
+    "taches": [
+        {
+            "id_tache": 1160,
+            "tache_courte": "ILS",
+            "tache": "THALES 420",
+            "debut": "2025-12-08",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "5"
+        },
+        {
+            "id_tache": 1763,
+            "tache_courte": "GMO",
+            "tache": "Réunion des responsables de formation",
+            "debut": "2025-12-09",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1763,
+            "tache_courte": "GMO",
+            "tache": "Réunion des responsables de formation",
+            "debut": "2025-12-09",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1763,
+            "tache_courte": "GMO",
+            "tache": "Réunion des responsables de formation",
+            "debut": "2025-12-09",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1763,
+            "tache_courte": "GMO",
+            "tache": "Réunion des responsables de formation",
+            "debut": "2025-12-09",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1957,
+            "tache_courte": "Audit",
+            "tache": "Auditeur DSNA",
+            "debut": "2025-12-01",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "5"
+        },
+        {
+            "id_tache": 1965,
+            "tache_courte": "ILS 420",
+            "tache": "",
+            "debut": "2025-12-08",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "5"
+        },
+        {
+            "id_tache": 1968,
+            "tache_courte": "REX TPH",
+            "tache": "REX RAIATEA Téléphone évènement du 14\/08\/25",
+            "debut": "2025-12-08",
+            "background": "0024ed",
+            "color": "ffffff",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1990,
+            "tache_courte": "RPO",
+            "tache": "Semaine de permanence RPO",
+            "debut": "2025-12-22",
+            "background": "00F3FF",
+            "color": "000000",
+            "duree": "7"
+        },
+        {
+            "id_tache": 1995,
+            "tache_courte": "MANLFLL",
+            "tache": "Formation pratique MAN Saint Exupéry session 2",
+            "debut": "2025-12-01",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1497,
+            "tache_courte": "GP 35r",
+            "tache": "Semestrielle GLIDE 35R",
+            "debut": "2025-12-01",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1497,
+            "tache_courte": "GP 35r",
+            "tache": "Semestrielle GLIDE 35R",
+            "debut": "2025-12-01",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
+        },
+        {
+            "id_tache": 1496,
+            "tache_courte": "LOC 35r",
+            "tache": "Semestrielle LOC 35R",
+            "debut": "2025-12-01",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1496,
+            "tache_courte": "LOC 35r",
+            "tache": "Semestrielle LOC 35R",
+            "debut": "2025-12-01",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "3"
+        },
+        {
+            "id_tache": 1535,
+            "tache_courte": "isatis",
+            "tache": "Mensuelle ISATIS",
+            "debut": "2025-12-15",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1535,
+            "tache_courte": "isatis",
+            "tache": "Mensuelle ISATIS",
+            "debut": "2025-12-15",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1536,
+            "tache_courte": "Raia",
+            "tache": "Mensuelle Chaine RAIATEA",
+            "debut": "2025-12-15",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1536,
+            "tache_courte": "Raia",
+            "tache": "Mensuelle Chaine RAIATEA",
+            "debut": "2025-12-15",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2003,
+            "tache_courte": "MAN",
+            "tache": "",
+            "debut": "2025-12-03",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2003,
+            "tache_courte": "MAN",
+            "tache": "",
+            "debut": "2025-12-03",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2004,
+            "tache_courte": "MAN",
+            "tache": "",
+            "debut": "2025-12-05",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 2004,
+            "tache_courte": "MAN",
+            "tache": "",
+            "debut": "2025-12-05",
+            "background": "f7b9b9",
+            "color": "000000",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1614,
+            "tache_courte": "GE",
+            "tache": "Démarrage des Groupes Electrogènes au CERD et AA",
+            "debut": "2025-12-02",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1614,
+            "tache_courte": "GE",
+            "tache": "Démarrage des Groupes Electrogènes au CERD et AA",
+            "debut": "2025-12-02",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1723,
+            "tache_courte": "AA DIE",
+            "tache": "Maint Diemoz 24VA",
+            "debut": "2025-12-03",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1723,
+            "tache_courte": "AA DIE",
+            "tache": "Maint Diemoz 24VA",
+            "debut": "2025-12-03",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1724,
+            "tache_courte": "AA DIE",
+            "tache": "Maint Diemoz 24VB",
+            "debut": "2025-12-04",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1724,
+            "tache_courte": "AA DIE",
+            "tache": "Maint Diemoz 24VB",
+            "debut": "2025-12-04",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1754,
+            "tache_courte": "NRJ_MVD",
+            "tache": "Changement disjoncteur ",
+            "debut": "2025-12-10",
+            "background": "d6d6d6",
+            "color": "696969",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1725,
+            "tache_courte": "AA STQU",
+            "tache": "Maint St Quentin F. 24VA",
+            "debut": "2025-12-10",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1725,
+            "tache_courte": "AA STQU",
+            "tache": "Maint St Quentin F. 24VA",
+            "debut": "2025-12-10",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1726,
+            "tache_courte": "AA STQU",
+            "tache": "Maint St Qentin F. 24VB",
+            "debut": "2025-12-11",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        },
+        {
+            "id_tache": 1726,
+            "tache_courte": "AA STQU",
+            "tache": "Maint St Qentin F. 24VB",
+            "debut": "2025-12-11",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "1"
+        }
+    ],
+    "taches_agents": [
+        {
+            "id_tache": 1160,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1763,
+            "id_agent": "38"
+        },
+        {
+            "id_tache": 1763,
+            "id_agent": "21"
+        },
+        {
+            "id_tache": 1763,
+            "id_agent": "65"
+        },
+        {
+            "id_tache": 1763,
+            "id_agent": "34"
+        },
+        {
+            "id_tache": 1957,
+            "id_agent": "65"
+        },
+        {
+            "id_tache": 1965,
+            "id_agent": "68"
+        },
+        {
+            "id_tache": 1968,
+            "id_agent": "38"
+        },
+        {
+            "id_tache": 1990,
+            "id_agent": "54"
+        },
+        {
+            "id_tache": 1995,
+            "id_agent": "55"
+        },
+        {
+            "id_tache": 1497,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 1497,
+            "id_agent": "19"
+        },
+        {
+            "id_tache": 1496,
+            "id_agent": "25"
+        },
+        {
+            "id_tache": 1496,
+            "id_agent": "11"
+        },
+        {
+            "id_tache": 1535,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1535,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 1536,
+            "id_agent": "69"
+        },
+        {
+            "id_tache": 1536,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 2003,
+            "id_agent": "58"
+        },
+        {
+            "id_tache": 2003,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 2004,
+            "id_agent": "68"
+        },
+        {
+            "id_tache": 2004,
+            "id_agent": "10"
+        },
+        {
+            "id_tache": 1614,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1614,
+            "id_agent": "31"
+        },
+        {
+            "id_tache": 1723,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1723,
+            "id_agent": "30"
+        },
+        {
+            "id_tache": 1724,
+            "id_agent": "29"
+        },
+        {
+            "id_tache": 1724,
+            "id_agent": "31"
+        },
+        {
+            "id_tache": 1754,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1725,
+            "id_agent": "30"
+        },
+        {
+            "id_tache": 1725,
+            "id_agent": "31"
+        },
+        {
+            "id_tache": 1726,
+            "id_agent": "66"
+        },
+        {
+            "id_tache": 1726,
+            "id_agent": "29"
         }
     ]
 }
