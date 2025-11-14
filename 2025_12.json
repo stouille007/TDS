@@ -1,7 +1,7 @@
 {
     "informations": [
         {
-            "derniere_modification": "2025-11-14 18:56:10"
+            "derniere_modification": "2025-11-14 18:56:20"
         }
     ],
     "agents": [
@@ -10008,6 +10008,15 @@
             "background": "edc75f",
             "color": "8e6c0c",
             "duree": "1"
+        },
+        {
+            "id_tache": 2011,
+            "tache_courte": "GF",
+            "tache": "Gilles Farrugia",
+            "debut": "2025-12-22",
+            "background": "edc75f",
+            "color": "8e6c0c",
+            "duree": "2"
         }
     ],
     "taches_agents": [
@@ -10142,6 +10151,10 @@
         {
             "id_tache": 1726,
             "id_agent": "29"
+        },
+        {
+            "id_tache": 2011,
+            "id_agent": "66"
         }
     ]
 }
